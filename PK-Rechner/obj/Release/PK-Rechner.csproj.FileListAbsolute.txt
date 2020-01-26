@@ -1,0 +1,6 @@
+A:\modding\PK-Rechner\PK-Rechner\bin\Release\PK-Rechner.exe.config
+A:\modding\PK-Rechner\PK-Rechner\bin\Release\PK-Rechner.exe
+A:\modding\PK-Rechner\PK-Rechner\bin\Release\PK-Rechner.pdb
+A:\modding\PK-Rechner\PK-Rechner\obj\Release\PK-Rechner.csprojAssemblyReference.cache
+A:\modding\PK-Rechner\PK-Rechner\obj\Release\PK-Rechner.exe
+A:\modding\PK-Rechner\PK-Rechner\obj\Release\PK-Rechner.pdb
