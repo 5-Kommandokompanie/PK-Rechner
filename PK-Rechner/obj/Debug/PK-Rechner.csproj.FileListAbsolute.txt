@@ -1,0 +1,7 @@
+A:\modding\PK-Rechner\PK-Rechner\bin\Debug\PK-Rechner.exe.config
+A:\modding\PK-Rechner\PK-Rechner\bin\Debug\PK-Rechner.exe
+A:\modding\PK-Rechner\PK-Rechner\bin\Debug\PK-Rechner.pdb
+A:\modding\PK-Rechner\PK-Rechner\bin\Debug\PK-Rechner.exe.CodeAnalysisLog.xml
+A:\modding\PK-Rechner\PK-Rechner\bin\Debug\PK-Rechner.exe.lastcodeanalysissucceeded
+A:\modding\PK-Rechner\PK-Rechner\obj\Debug\PK-Rechner.exe
+A:\modding\PK-Rechner\PK-Rechner\obj\Debug\PK-Rechner.pdb
