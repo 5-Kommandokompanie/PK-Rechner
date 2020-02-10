@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Windows.Forms;
 
 namespace PK_Rechner
 {
     class Program
     {
+        [STAThreadAttribute]
         static void Main(string[] args)
         {
             string[] geburtsdatum = Geburtstag.Eingabe();
@@ -20,7 +22,8 @@ namespace PK_Rechner
             int pruef = Rechnung(geburtstag, nachname, kwea, lfd);
 
             Console.WriteLine("DEINE PERSONENKENNZIFFER LAUTET: {0}-{1}-{2}{3}{4}", string.Join("", geburtsdatum), Nachname.Buchstabe, _kwea, lfd, pruef);
-
+            Clipboard.SetText("to be filled");
+            Console.WriteLine("\n\nDie PK wurde in die Zwischenablage kopiert!");
             Console.ReadKey();
         }
 
