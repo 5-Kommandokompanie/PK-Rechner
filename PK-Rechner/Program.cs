@@ -21,8 +21,9 @@ namespace PK_Rechner
 
             int pruef = Rechnung(geburtstag, nachname, kwea, lfd);
 
-            Console.WriteLine("DEINE PERSONENKENNZIFFER LAUTET: {0}-{1}-{2}{3}{4}", string.Join("", geburtsdatum), Nachname.Buchstabe, _kwea, lfd, pruef);
-            Clipboard.SetText("to be filled");
+            string pk = $"{string.Join("", geburtsdatum)}-{Nachname.Buchstabe}-{_kwea}{lfd}{pruef}";
+            Console.WriteLine($"DEINE PERSONENKENNZIFFER LAUTET: {pk}");
+            Clipboard.SetText($"{pk}");
             Console.WriteLine("\n\nDie PK wurde in die Zwischenablage kopiert!");
             Console.ReadKey();
         }
