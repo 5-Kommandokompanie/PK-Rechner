@@ -11,3 +11,9 @@ C:\Users\Marvin Ernst\Source\Repos\ErikMast3r\PK-Rechner\PK-Rechner\obj\Release\
 C:\Users\Marvin Ernst\Source\Repos\ErikMast3r\PK-Rechner\PK-Rechner\obj\Release\PK-Rechner.csproj.CoreCompileInputs.cache
 C:\Users\Marvin Ernst\Source\Repos\ErikMast3r\PK-Rechner\PK-Rechner\obj\Release\PK-Rechner.exe
 C:\Users\Marvin Ernst\Source\Repos\ErikMast3r\PK-Rechner\PK-Rechner\obj\Release\PK-Rechner.pdb
+A:\modding\PK-Rechner\PK-Rechner\bin\Release\PK-Rechner.exe.manifest
+A:\modding\PK-Rechner\PK-Rechner\bin\Release\PK-Rechner.application
+A:\modding\PK-Rechner\PK-Rechner\obj\Release\PK-Rechner.csproj.CoreCompileInputs.cache
+A:\modding\PK-Rechner\PK-Rechner\obj\Release\PK-Rechner.TrustInfo.xml
+A:\modding\PK-Rechner\PK-Rechner\obj\Release\PK-Rechner.exe.manifest
+A:\modding\PK-Rechner\PK-Rechner\obj\Release\PK-Rechner.application
