@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>FRW-01</Machine>
+    <WindowsUser>Janwo</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>64a00e05-ffae-44ca-92b5-c34da849be7e</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Jan Wöde</PackageIdentityPublisher>
+    <IntermediateOutputPath>A:\modding\PK-Rechner\PK-Setup\obj\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>A:\modding\PK-Rechner\PK-Setup\bin\x64\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>7536589FE8B6E0F11708633C92C367DE3B30F77FE1D28535BB1F407CCBD967BC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>64a00e05-ffae-44ca-92b5-c34da849be7e_2.0.1.0_x64__0gmzxbayge2te</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>64a00e05-ffae-44ca-92b5-c34da849be7e_0gmzxbayge2te!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>64a00e05-ffae-44ca-92b5-c34da849be7e</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Jan Wöde</RegisteredPackagePublisher>
+    <RegisteredVersion>2.0.1.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="A:\modding\PK-Rechner\PK-Setup\bin\x64\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:37:41.698</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\BadgeLogo.scale-100.png">
+      <PackagePath>Images\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:24.409</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\BadgeLogo.scale-125.png">
+      <PackagePath>Images\BadgeLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:24.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\BadgeLogo.scale-150.png">
+      <PackagePath>Images\BadgeLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:24.487</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\BadgeLogo.scale-200.png">
+      <PackagePath>Images\BadgeLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:24.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\BadgeLogo.scale-400.png">
+      <PackagePath>Images\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:24.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\LargeTile.scale-100.png">
+      <PackagePath>Images\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:22.662</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\LargeTile.scale-125.png">
+      <PackagePath>Images\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:22.709</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\LargeTile.scale-150.png">
+      <PackagePath>Images\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:22.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\LargeTile.scale-200.png">
+      <PackagePath>Images\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:22.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\LargeTile.scale-400.png">
+      <PackagePath>Images\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:22.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SmallTile.scale-100.png">
+      <PackagePath>Images\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:21.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SmallTile.scale-125.png">
+      <PackagePath>Images\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:21.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SmallTile.scale-150.png">
+      <PackagePath>Images\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:22.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SmallTile.scale-200.png">
+      <PackagePath>Images\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:22.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SmallTile.scale-400.png">
+      <PackagePath>Images\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:22.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SplashScreen.scale-100.png">
+      <PackagePath>Images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.884</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SplashScreen.scale-125.png">
+      <PackagePath>Images\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SplashScreen.scale-150.png">
+      <PackagePath>Images\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:24.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:24.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2021-09-12T22:34:21.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SplashScreen.scale-400.png">
+      <PackagePath>Images\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:24.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square150x150Logo.scale-100.png">
+      <PackagePath>Images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:22.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square150x150Logo.scale-125.png">
+      <PackagePath>Images\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:22.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square150x150Logo.scale-150.png">
+      <PackagePath>Images\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:22.237</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:22.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square150x150Logo.scale-400.png">
+      <PackagePath>Images\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:22.346</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.620</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.569</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.scale-100.png">
+      <PackagePath>Images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.028</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.scale-125.png">
+      <PackagePath>Images\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.scale-150.png">
+      <PackagePath>Images\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.scale-400.png">
+      <PackagePath>Images\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.181</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.409</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:23.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\StoreLogo.scale-100.png">
+      <PackagePath>Images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:24.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\StoreLogo.scale-125.png">
+      <PackagePath>Images\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:24.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\StoreLogo.scale-150.png">
+      <PackagePath>Images\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:24.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\StoreLogo.scale-200.png">
+      <PackagePath>Images\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:24.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\StoreLogo.scale-400.png">
+      <PackagePath>Images\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:24.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Wide310x150Logo.scale-100.png">
+      <PackagePath>Images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:22.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Wide310x150Logo.scale-125.png">
+      <PackagePath>Images\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:22.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Wide310x150Logo.scale-150.png">
+      <PackagePath>Images\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:22.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:22.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Wide310x150Logo.scale-400.png">
+      <PackagePath>Images\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-14T21:34:22.619</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\bin\x64\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2021-09-14T21:37:41.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.componentmodel.composition\5.0.0\lib\netcoreapp2.0\System.ComponentModel.Composition.dll">
+      <PackagePath>PK-Rechner_WPF\System.ComponentModel.Composition.dll</PackagePath>
+      <Modified>2020-10-19T18:50:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.componentmodel.composition.registration\5.0.0\lib\netstandard2.1\System.ComponentModel.Composition.Registration.dll">
+      <PackagePath>PK-Rechner_WPF\System.ComponentModel.Composition.Registration.dll</PackagePath>
+      <Modified>2020-10-19T18:52:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.odbc\5.0.0\lib\netstandard2.0\System.Data.Odbc.dll">
+      <PackagePath>PK-Rechner_WPF\System.Data.Odbc.dll</PackagePath>
+      <Modified>2020-10-19T18:51:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.oledb\5.0.0\lib\netstandard2.0\System.Data.OleDb.dll">
+      <PackagePath>PK-Rechner_WPF\System.Data.OleDb.dll</PackagePath>
+      <Modified>2020-10-19T18:52:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.sqlclient\4.8.1\lib\netcoreapp2.1\System.Data.SqlClient.dll">
+      <PackagePath>PK-Rechner_WPF\System.Data.SqlClient.dll</PackagePath>
+      <Modified>2020-01-17T18:28:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.diagnostics.eventlog\5.0.1\lib\netstandard2.0\System.Diagnostics.EventLog.dll">
+      <PackagePath>PK-Rechner_WPF\System.Diagnostics.EventLog.dll</PackagePath>
+      <Modified>2021-01-23T03:40:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.diagnostics.performancecounter\5.0.1\lib\netstandard2.0\System.Diagnostics.PerformanceCounter.dll">
+      <PackagePath>PK-Rechner_WPF\System.Diagnostics.PerformanceCounter.dll</PackagePath>
+      <Modified>2021-01-23T03:41:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.directoryservices.accountmanagement\5.0.0\lib\netstandard2.0\System.DirectoryServices.AccountManagement.dll">
+      <PackagePath>PK-Rechner_WPF\System.DirectoryServices.AccountManagement.dll</PackagePath>
+      <Modified>2020-10-19T18:49:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.directoryservices.protocols\5.0.0\lib\netstandard2.0\System.DirectoryServices.Protocols.dll">
+      <PackagePath>PK-Rechner_WPF\System.DirectoryServices.Protocols.dll</PackagePath>
+      <Modified>2020-10-19T18:50:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.io.ports\5.0.0\lib\netstandard2.0\System.IO.Ports.dll">
+      <PackagePath>PK-Rechner_WPF\System.IO.Ports.dll</PackagePath>
+      <Modified>2020-10-19T18:52:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.management\5.0.0\lib\netstandard2.0\System.Management.dll">
+      <PackagePath>PK-Rechner_WPF\System.Management.dll</PackagePath>
+      <Modified>2020-10-19T18:52:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.private.servicemodel\4.8.0\lib\netstandard2.0\System.Private.ServiceModel.dll">
+      <PackagePath>PK-Rechner_WPF\System.Private.ServiceModel.dll</PackagePath>
+      <Modified>2020-10-20T03:19:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.reflection.context\5.0.0\lib\netstandard2.1\System.Reflection.Context.dll">
+      <PackagePath>PK-Rechner_WPF\System.Reflection.Context.dll</PackagePath>
+      <Modified>2020-10-19T18:52:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.runtime.caching\5.0.0\lib\netstandard2.0\System.Runtime.Caching.dll">
+      <PackagePath>PK-Rechner_WPF\System.Runtime.Caching.dll</PackagePath>
+      <Modified>2020-10-19T18:52:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.security.cryptography.pkcs\5.0.1\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll">
+      <PackagePath>PK-Rechner_WPF\System.Security.Cryptography.Pkcs.dll</PackagePath>
+      <Modified>2020-11-26T02:01:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.servicemodel.duplex\4.8.0\lib\netstandard2.0\System.ServiceModel.Duplex.dll">
+      <PackagePath>PK-Rechner_WPF\System.ServiceModel.Duplex.dll</PackagePath>
+      <Modified>2020-10-20T03:20:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.servicemodel.http\4.8.0\lib\netstandard2.0\System.ServiceModel.Http.dll">
+      <PackagePath>PK-Rechner_WPF\System.ServiceModel.Http.dll</PackagePath>
+      <Modified>2020-10-20T03:20:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.servicemodel.nettcp\4.8.0\lib\netstandard2.0\System.ServiceModel.NetTcp.dll">
+      <PackagePath>PK-Rechner_WPF\System.ServiceModel.NetTcp.dll</PackagePath>
+      <Modified>2020-10-20T03:19:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.servicemodel.primitives\4.8.0\lib\netcoreapp2.1\System.ServiceModel.Primitives.dll">
+      <PackagePath>PK-Rechner_WPF\System.ServiceModel.Primitives.dll</PackagePath>
+      <Modified>2020-10-20T03:20:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.servicemodel.primitives\4.8.0\lib\netcoreapp2.1\System.ServiceModel.dll">
+      <PackagePath>PK-Rechner_WPF\System.ServiceModel.dll</PackagePath>
+      <Modified>2020-10-20T03:20:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.servicemodel.security\4.8.0\lib\netstandard2.0\System.ServiceModel.Security.dll">
+      <PackagePath>PK-Rechner_WPF\System.ServiceModel.Security.dll</PackagePath>
+      <Modified>2020-10-20T03:20:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.servicemodel.syndication\5.0.0\lib\netstandard2.0\System.ServiceModel.Syndication.dll">
+      <PackagePath>PK-Rechner_WPF\System.ServiceModel.Syndication.dll</PackagePath>
+      <Modified>2020-10-19T18:51:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.serviceprocess.servicecontroller\5.0.0\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll">
+      <PackagePath>PK-Rechner_WPF\System.ServiceProcess.ServiceController.dll</PackagePath>
+      <Modified>2020-10-19T18:51:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.speech\5.0.0\lib\netstandard2.0\System.Speech.dll">
+      <PackagePath>PK-Rechner_WPF\System.Speech.dll</PackagePath>
+      <Modified>2021-01-23T03:42:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\runtime.linux-arm.runtime.native.system.io.ports\5.0.0-rtm.20519.4\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so">
+      <PackagePath>PK-Rechner_WPF\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so</PackagePath>
+      <Modified>2020-10-19T18:17:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\runtime.linux-arm64.runtime.native.system.io.ports\5.0.0-rtm.20519.4\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so">
+      <PackagePath>PK-Rechner_WPF\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so</PackagePath>
+      <Modified>2020-10-19T18:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\runtime.linux-x64.runtime.native.system.io.ports\5.0.0-rtm.20519.4\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so">
+      <PackagePath>PK-Rechner_WPF\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so</PackagePath>
+      <Modified>2020-10-19T18:19:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\runtime.osx-x64.runtime.native.system.io.ports\5.0.0-rtm.20519.4\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib">
+      <PackagePath>PK-Rechner_WPF\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib</PackagePath>
+      <Modified>2020-10-19T18:08:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\4.4.0\runtimes\win-arm64\native\sni.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win-arm64\native\sni.dll</PackagePath>
+      <Modified>2017-07-12T11:24:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\runtime.win-x64.runtime.native.system.data.sqlclient.sni\4.4.0\runtimes\win-x64\native\sni.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win-x64\native\sni.dll</PackagePath>
+      <Modified>2017-07-12T11:24:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\runtime.win-x86.runtime.native.system.data.sqlclient.sni\4.4.0\runtimes\win-x86\native\sni.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win-x86\native\sni.dll</PackagePath>
+      <Modified>2017-07-12T11:24:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.odbc\5.0.0\runtimes\freebsd\lib\netcoreapp2.0\System.Data.Odbc.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\freebsd\lib\netcoreapp2.0\System.Data.Odbc.dll</PackagePath>
+      <Modified>2020-10-19T18:50:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.odbc\5.0.0\runtimes\linux\lib\netcoreapp2.0\System.Data.Odbc.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\linux\lib\netcoreapp2.0\System.Data.Odbc.dll</PackagePath>
+      <Modified>2020-10-19T18:50:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.odbc\5.0.0\runtimes\osx\lib\netcoreapp2.0\System.Data.Odbc.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\osx\lib\netcoreapp2.0\System.Data.Odbc.dll</PackagePath>
+      <Modified>2020-10-19T18:51:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.odbc\5.0.0\runtimes\win\lib\netcoreapp2.0\System.Data.Odbc.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\netcoreapp2.0\System.Data.Odbc.dll</PackagePath>
+      <Modified>2020-10-19T18:51:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.oledb\5.0.0\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll</PackagePath>
+      <Modified>2020-10-19T18:52:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.sqlclient\4.8.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll</PackagePath>
+      <Modified>2020-01-17T18:41:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.sqlclient\4.8.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll</PackagePath>
+      <Modified>2020-01-17T18:41:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.diagnostics.eventlog\5.0.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.Messages.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.Messages.dll</PackagePath>
+      <Modified>2021-01-23T03:40:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.diagnostics.eventlog\5.0.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll</PackagePath>
+      <Modified>2021-01-23T03:40:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.diagnostics.performancecounter\5.0.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll</PackagePath>
+      <Modified>2021-01-23T03:41:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.directoryservices.accountmanagement\5.0.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.AccountManagement.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.AccountManagement.dll</PackagePath>
+      <Modified>2020-10-19T18:53:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.directoryservices.protocols\5.0.0\runtimes\linux\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\linux\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll</PackagePath>
+      <Modified>2020-10-19T18:51:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.directoryservices.protocols\5.0.0\runtimes\osx\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\osx\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll</PackagePath>
+      <Modified>2020-10-19T18:51:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.directoryservices.protocols\5.0.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll</PackagePath>
+      <Modified>2020-10-19T18:51:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.io.ports\5.0.0\runtimes\linux\lib\netstandard2.0\System.IO.Ports.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\linux\lib\netstandard2.0\System.IO.Ports.dll</PackagePath>
+      <Modified>2020-10-19T18:50:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.io.ports\5.0.0\runtimes\osx\lib\netstandard2.0\System.IO.Ports.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\osx\lib\netstandard2.0\System.IO.Ports.dll</PackagePath>
+      <Modified>2020-10-19T18:50:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.io.ports\5.0.0\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll</PackagePath>
+      <Modified>2020-10-19T18:50:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.management\5.0.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\netcoreapp2.0\System.Management.dll</PackagePath>
+      <Modified>2020-10-19T18:51:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.runtime.caching\5.0.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll</PackagePath>
+      <Modified>2020-10-19T18:52:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.security.cryptography.pkcs\5.0.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll</PackagePath>
+      <Modified>2020-11-26T02:01:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.serviceprocess.servicecontroller\5.0.0\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll</PackagePath>
+      <Modified>2020-10-19T18:51:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.speech\5.0.0\runtimes\win\lib\netcoreapp2.1\System.Speech.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\netcoreapp2.1\System.Speech.dll</PackagePath>
+      <Modified>2021-01-23T03:41:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\PK-Rechner.deps.json">
+      <PackagePath>PK-Rechner_WPF\PK-Rechner.deps.json</PackagePath>
+      <Modified>2021-09-14T21:37:40.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\PK-Rechner.runtimeconfig.dev.json">
+      <PackagePath>PK-Rechner_WPF\PK-Rechner.runtimeconfig.dev.json</PackagePath>
+      <Modified>2021-09-14T21:37:40.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Rechner_WPF\obj\x64\Release\net5.0-windows\apphost.exe">
+      <PackagePath>PK-Rechner_WPF\PK-Rechner.exe</PackagePath>
+      <Modified>2021-09-14T21:37:40.181</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\PK-Rechner.runtimeconfig.json">
+      <PackagePath>PK-Rechner_WPF\PK-Rechner.runtimeconfig.json</PackagePath>
+      <Modified>2021-09-14T21:37:40.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\PK-Rechner.dll">
+      <PackagePath>PK-Rechner_WPF\PK-Rechner.dll</PackagePath>
+      <Modified>2021-09-14T21:37:40.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\PK-Rechner.dll.config">
+      <PackagePath>PK-Rechner_WPF\PK-Rechner.dll.config</PackagePath>
+      <Modified>2021-01-02T17:10:35.436</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

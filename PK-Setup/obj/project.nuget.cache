@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FHIvU5AeYjf7Rp8dWQvMYlmqMbogKMnS9Ae/JEGOqEaZpXfppSVNg7Qf/j5vNps6Tq+ckadtNdZmOz+oYCS6WA==",
+  "success": true,
+  "projectFilePath": "A:\\modding\\PK-Rechner\\PK-Setup\\PK-Setup.wapproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.19041.8\\microsoft.windows.sdk.buildtools.10.0.19041.8.nupkg.sha512"
+  ],
+  "logs": []
+}

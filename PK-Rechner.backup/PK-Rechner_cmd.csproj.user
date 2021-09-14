@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>S:\inetpub\wwwroot\pk\|ftp://81.169.176.25/var/www/html/kdokp/pk/|ftp://81.169.176.25:22/var/www/html/kdokp/pk/|sftp://81.169.176.25/var/www/html/kdokp/pk/|sftp://root%4081.169.176.25/var/www/html/kdokp/pk/</PublishUrlHistory>
+    <InstallUrlHistory>http://exclusiv-altis-life.de/pk/|http://exclusiv-altis-life.de.de/pk/|http://5.kdokp.de/pk/|\\FRW-03\inetpub\wwwroot\pk\|http://localhost/PK-Rechner/</InstallUrlHistory>
+    <SupportUrlHistory>http://5.kdokp.de</SupportUrlHistory>
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory>http://5.kdokp.de</ErrorReportUrlHistory>
+    <FallbackCulture>de-DE</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

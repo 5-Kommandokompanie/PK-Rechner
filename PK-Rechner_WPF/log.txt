@@ -1,0 +1,48 @@
+2021-06-01 23:20:25.728 +02:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.300\
+2021-06-01 23:20:26.909 +02:00 [INF] Initializing upgrade step Select an entrypoint
+2021-06-01 23:20:26.912 +02:00 [INF] Setting entrypoint to only project in solution: A:\modding\PK-Rechner\PK-Rechner_WPF\PK-Rechner_WPF.csproj
+2021-06-01 23:20:26.919 +02:00 [INF] Initializing upgrade step Select project to upgrade
+2021-06-01 23:20:26.966 +02:00 [INF] Initializing upgrade step Back up project
+2021-06-01 23:20:29.567 +02:00 [INF] Applying upgrade step Back up project
+2021-06-01 23:20:31.978 +02:00 [INF] Backing up A:\modding\PK-Rechner\PK-Rechner_WPF to A:\modding\PK-Rechner\PK-Rechner_WPF.backup
+2021-06-01 23:20:31.996 +02:00 [WRN] Could not copy file A:\modding\PK-Rechner\PK-Rechner_WPF\log.txt due to 'The process cannot access the file 'A:\modding\PK-Rechner\PK-Rechner_WPF\log.txt' because it is being used by another process.'
+2021-06-01 23:20:32.115 +02:00 [INF] Project backed up to A:\modding\PK-Rechner\PK-Rechner_WPF.backup
+2021-06-01 23:20:32.116 +02:00 [INF] Upgrade step Back up project applied successfully
+2021-06-01 23:20:35.866 +02:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-06-01 23:20:37.478 +02:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-06-01 23:20:37.481 +02:00 [INF] Converting project file format with try-convert, version 0.7.226301
+2021-06-01 23:20:37.796 +02:00 [INF] [try-convert] A:\modding\PK-Rechner\PK-Rechner_WPF\PK-Rechner_WPF.csproj contains an App.config file. App.config is replaced by appsettings.json in .NET Core. You will need to delete App.config and migrate to appsettings.json if it's applicable to your project.
+2021-06-01 23:20:42.086 +02:00 [INF] [try-convert] Conversion complete!
+2021-06-01 23:20:42.289 +02:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-06-01 23:20:46.185 +02:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-06-01 23:20:51.474 +02:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-06-01 23:20:58.369 +02:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-01 23:20:58.373 +02:00 [INF] No package updates needed
+2021-06-01 23:20:58.375 +02:00 [INF] Initializing upgrade step Update TFM
+2021-06-01 23:20:58.381 +02:00 [INF] TFM needs updated to net5.0-windows
+2021-06-01 23:21:00.357 +02:00 [INF] Applying upgrade step Update TFM
+2021-06-01 23:21:02.606 +02:00 [INF] Updated TFM to net5.0-windows
+2021-06-01 23:21:02.607 +02:00 [INF] Upgrade step Update TFM applied successfully
+2021-06-01 23:21:04.280 +02:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-06-01 23:21:05.327 +02:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-01 23:21:06.063 +02:00 [INF] Adding Microsoft.Windows.Compatibility 5.0.2
+2021-06-01 23:21:06.065 +02:00 [INF] Packages to be added: Microsoft.Windows.Compatibility, Version=5.0.2
+2021-06-01 23:21:08.906 +02:00 [INF] Applying upgrade step Update NuGet Packages
+2021-06-01 23:21:08.910 +02:00 [INF] Adding package reference: Microsoft.Windows.Compatibility, Version=5.0.2
+2021-06-01 23:21:11.473 +02:00 [INF] Marking package System.Data.DataSetExtensions for removal because it appears to be a transitive dependency
+2021-06-01 23:21:11.491 +02:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-01 23:21:11.566 +02:00 [INF] Removing outdated package reference: System.Data.DataSetExtensions, Version=4.5.0
+2021-06-01 23:21:13.203 +02:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-01 23:21:13.271 +02:00 [INF] Upgrade step Update NuGet Packages applied successfully
+2021-06-01 23:21:16.781 +02:00 [INF] Initializing upgrade step Add template files
+2021-06-01 23:21:16.787 +02:00 [INF] 0 expected template items needed
+2021-06-01 23:21:16.789 +02:00 [INF] Initializing upgrade step Upgrade app config files
+2021-06-01 23:21:16.800 +02:00 [INF] Found 0 app settings for upgrade: 
+2021-06-01 23:21:16.820 +02:00 [INF] Initializing upgrade step Update source code
+2021-06-01 23:21:17.814 +02:00 [INF] Initializing upgrade step Move to next project
+2021-06-01 23:21:20.427 +02:00 [INF] Applying upgrade step Move to next project
+2021-06-01 23:21:20.428 +02:00 [INF] Upgrade step Move to next project applied successfully
+2021-06-01 23:21:22.021 +02:00 [INF] Initializing upgrade step Finalize upgrade
+2021-06-01 23:21:25.065 +02:00 [INF] Applying upgrade step Finalize upgrade
+2021-06-01 23:21:25.066 +02:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-06-01 23:21:26.131 +02:00 [INF] Upgrade has completed. Please review any changes.

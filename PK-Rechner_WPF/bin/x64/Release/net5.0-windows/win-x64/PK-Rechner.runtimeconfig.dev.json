@@ -1,0 +1,10 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Janwo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Janwo\\.nuget\\packages",
+      "C:\\Program Files (x86)\\ComponentOne\\WPF Edition\\bin\\v5",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+    ]
+  }
+}
