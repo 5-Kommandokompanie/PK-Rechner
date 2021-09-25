@@ -63,13 +63,31 @@
       <dsig:DigestValue>QfVGkzdESg3+ppee2jZ897L0M0OYO/XVAdCs37tTVww=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="PK-Rechner.dll" size="142336">
+  <file name="MaterialDesignColors.dll" size="302592">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>+e0UgKOcxbjAC3YIyPluqT9V1z9LbuQcEmpjdHVJ6y4=</dsig:DigestValue>
+      <dsig:DigestValue>Ls1gddQjxz/a8vUKeaFB3GRJZrXfk2/OH8C2x1ilKlM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MaterialDesignThemes.Wpf.dll" size="8636416">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>igdCLVN0aLnTM6zGqT1PxThCNvwTFFTavbSwq/yBSPQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PK-Rechner.dll" size="145920">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Q5OOWVEBMYjMLeVnifWb/KI4kV+ExAu7WRSDtn6fpRU=</dsig:DigestValue>
     </hash>
   </file>
   <file name="PK-Rechner.dll.config" size="187">
@@ -87,7 +105,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>gM9jRgopcN02ly6Cc0kU5L0YygzmZn+rzcjXm47iA54=</dsig:DigestValue>
+      <dsig:DigestValue>FBYmIJyWx8b1CKSKezcDD706uM82l3c5Z0DL4VfxpB0=</dsig:DigestValue>
     </hash>
   </file>
   <file name="runtimes\freebsd\lib\netcoreapp2.0\System.Data.Odbc.dll" size="265096">

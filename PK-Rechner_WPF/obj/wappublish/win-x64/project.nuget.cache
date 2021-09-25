@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "x2txszMB6QN6UbmY7SiTkYf6caNz43r5LZ58gH9wcaQB2FgZxEx79svgN7fAJc+q5h2AT5ES2FCFJzCRQFh1Lg==",
+  "dgSpecHash": "a5QQayvygUG1LHmbMPFL8tMskRvBrp14f9Nltmqs2HrA6JMKBEZccKZbytp9YZ+wyjhvOtEQmFZ7iCnVItu22A==",
   "success": true,
   "projectFilePath": "A:\\modding\\PK-Rechner\\PK-Rechner_WPF\\PK-Rechner_WPF.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Janwo\\.nuget\\packages\\materialdesigncolors\\2.0.3\\materialdesigncolors.2.0.3.nupkg.sha512",
+    "C:\\Users\\Janwo\\.nuget\\packages\\materialdesignthemes\\4.2.1\\materialdesignthemes.4.2.1.nupkg.sha512",
     "C:\\Users\\Janwo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Janwo\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.1\\microsoft.netcore.platforms.5.0.1.nupkg.sha512",
     "C:\\Users\\Janwo\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
@@ -65,9 +67,9 @@
     "C:\\Users\\Janwo\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512",
     "C:\\Users\\Janwo\\.nuget\\packages\\system.threading.accesscontrol\\5.0.0\\system.threading.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\Janwo\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
-    "C:\\Users\\Janwo\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.9\\microsoft.netcore.app.runtime.win-x64.5.0.9.nupkg.sha512",
-    "C:\\Users\\Janwo\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.9\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.9.nupkg.sha512",
-    "C:\\Users\\Janwo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.9\\microsoft.aspnetcore.app.runtime.win-x64.5.0.9.nupkg.sha512"
+    "C:\\Users\\Janwo\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.10\\microsoft.netcore.app.runtime.win-x64.5.0.10.nupkg.sha512",
+    "C:\\Users\\Janwo\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.10\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.10.nupkg.sha512",
+    "C:\\Users\\Janwo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.10\\microsoft.aspnetcore.app.runtime.win-x64.5.0.10.nupkg.sha512"
   ],
   "logs": []
 }

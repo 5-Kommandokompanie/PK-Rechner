@@ -902,8 +902,8 @@
     <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\mscordaccore.dll">
       <PackagePath>PK-Rechner_WPF\mscordaccore.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\mscordaccore_amd64_amd64_5.0.921.35908.dll">
-      <PackagePath>PK-Rechner_WPF\mscordaccore_amd64_amd64_5.0.921.35908.dll</PackagePath>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\mscordaccore_amd64_amd64_5.0.1021.41214.dll">
+      <PackagePath>PK-Rechner_WPF\mscordaccore_amd64_amd64_5.0.1021.41214.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\mscordbi.dll">
       <PackagePath>PK-Rechner_WPF\mscordbi.dll</PackagePath>
@@ -1747,6 +1747,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\wpfgfx_cor3.dll">
       <PackagePath>PK-Rechner_WPF\wpfgfx_cor3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\MaterialDesignColors.dll">
+      <PackagePath>PK-Rechner_WPF\MaterialDesignColors.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\MaterialDesignThemes.Wpf.dll">
+      <PackagePath>PK-Rechner_WPF\MaterialDesignThemes.Wpf.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\Microsoft.Win32.Registry.AccessControl.dll">
       <PackagePath>PK-Rechner_WPF\Microsoft.Win32.Registry.AccessControl.dll</PackagePath>

@@ -14,14 +14,14 @@
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="PK-Rechner.dll.manifest" size="219792">
+    <dependentAssembly dependencyType="install" codebase="PK-Rechner.dll.manifest" size="220606">
       <assemblyIdentity name="PK-Rechner.exe" version="2.0.0.1" publicKeyToken="0000000000000000" language="de-DE" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>MMesA4j/pCr/3Ey/hqTzJIuQcY3hclLyh4cttQogrs0=</dsig:DigestValue>
+        <dsig:DigestValue>DLThhA8zNT1MXPQlwy3Q73TFCwhbJEcKhjZikfis1gw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -216,7 +216,7 @@ A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msix
 A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\hostfxr.dll
 A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\hostpolicy.dll
 A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\mscordaccore.dll
-A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\mscordaccore_amd64_amd64_5.0.921.35908.dll
+A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\mscordaccore_amd64_amd64_5.0.1021.41214.dll
 A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\mscordbi.dll
 A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\mscorrc.dll
 A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\ucrtbase.dll
@@ -498,6 +498,8 @@ A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msix
 A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\PresentationNative_cor3.dll
 A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\vcruntime140_cor3.dll
 A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\wpfgfx_cor3.dll
+A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\MaterialDesignColors.dll
+A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\MaterialDesignThemes.Wpf.dll
 A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\Microsoft.Win32.Registry.AccessControl.dll
 A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\Microsoft.Win32.SystemEvents.dll
 A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\msixpublish\System.ComponentModel.Composition.dll

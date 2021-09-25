@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "un096zRy7QXF4GCFs0WSZHoFu8cra8RGgK3mEZB5kJfQ6/o+WqT4VwTzThNz5LbQXMWdhPzI5ksEFcuF81zEzg==",
+  "dgSpecHash": "Kh+b5Dsn60UgKBxenrqbRk9iyD7mYDURtBu9IOf80q/Rznf5KOKA5PAqQYh0mYDnId4ZxoAU2dmg5FPKxK1wrA==",
   "success": true,
   "projectFilePath": "A:\\modding\\PK-Rechner\\PK-Rechner_WPF\\PK-Rechner_WPF.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Janwo\\.nuget\\packages\\materialdesigncolors\\2.0.3\\materialdesigncolors.2.0.3.nupkg.sha512",
+    "C:\\Users\\Janwo\\.nuget\\packages\\materialdesignthemes\\4.2.1\\materialdesignthemes.4.2.1.nupkg.sha512",
     "C:\\Users\\Janwo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Janwo\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.1\\microsoft.netcore.platforms.5.0.1.nupkg.sha512",
     "C:\\Users\\Janwo\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",

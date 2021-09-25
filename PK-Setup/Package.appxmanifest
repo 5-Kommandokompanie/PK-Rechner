@@ -9,11 +9,11 @@
   <Identity
     Name="64a00e05-ffae-44ca-92b5-c34da849be7e"
     Publisher="CN=Jan Wöde"
-    Version="2.0.1.0" />
+    Version="2.1.0.0" />
 
   <Properties>
     <DisplayName>PK-Setup</DisplayName>
-    <PublisherDisplayName>Master</PublisherDisplayName>
+    <PublisherDisplayName>Jan Wöde</PublisherDisplayName>
     <Logo>Images\StoreLogo.png</Logo>
   </Properties>
 

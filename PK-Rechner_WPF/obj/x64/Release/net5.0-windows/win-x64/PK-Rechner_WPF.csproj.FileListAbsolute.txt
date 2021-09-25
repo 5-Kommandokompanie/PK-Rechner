@@ -543,5 +543,8 @@ A:\modding\PK-Rechner\PK-Rechner_WPF\obj\x64\Release\net5.0-windows\win-x64\PK-R
 A:\modding\PK-Rechner\PK-Rechner_WPF\obj\x64\Release\net5.0-windows\win-x64\PK-Rechner.dll
 A:\modding\PK-Rechner\PK-Rechner_WPF\obj\x64\Release\net5.0-windows\win-x64\ref\PK-Rechner.dll
 A:\modding\PK-Rechner\PK-Rechner_WPF\obj\x64\Release\net5.0-windows\win-x64\PK-Rechner.pdb
-A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\mscordaccore_amd64_amd64_5.0.921.35908.dll
 A:\modding\PK-Rechner\PK-Rechner_WPF\obj\x64\Release\net5.0-windows\win-x64\PK-Rechner_WPF.csproj.AssemblyReference.cache
+A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\MaterialDesignColors.dll
+A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\MaterialDesignThemes.Wpf.dll
+A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\win-x64\mscordaccore_amd64_amd64_5.0.1021.41214.dll
+A:\modding\PK-Rechner\PK-Rechner_WPF\obj\x64\Release\net5.0-windows\win-x64\App.baml

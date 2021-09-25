@@ -58,7 +58,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>PK-Rechner_WPF_TemporaryKey.pfx</ManifestKeyFile>
-    <Authors>Master</Authors>
+    <Authors>Jan Wöde</Authors>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>PK-Rechner_WPF_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
@@ -78,6 +78,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.2.1" />
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="Microsoft.Windows.Compatibility" Version="5.0.2" />
   </ItemGroup>

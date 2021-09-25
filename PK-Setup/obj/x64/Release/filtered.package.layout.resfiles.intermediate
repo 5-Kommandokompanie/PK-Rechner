@@ -106,6 +106,8 @@ PK-Rechner_WPF\dbgshim.dll
 PK-Rechner_WPF\DirectWriteForwarder.dll
 PK-Rechner_WPF\hostfxr.dll
 PK-Rechner_WPF\hostpolicy.dll
+PK-Rechner_WPF\MaterialDesignColors.dll
+PK-Rechner_WPF\MaterialDesignThemes.Wpf.dll
 PK-Rechner_WPF\Microsoft.CSharp.dll
 PK-Rechner_WPF\Microsoft.DiaSymReader.Native.amd64.dll
 PK-Rechner_WPF\Microsoft.VisualBasic.Core.dll
@@ -116,7 +118,7 @@ PK-Rechner_WPF\Microsoft.Win32.Registry.AccessControl.dll
 PK-Rechner_WPF\Microsoft.Win32.Registry.dll
 PK-Rechner_WPF\Microsoft.Win32.SystemEvents.dll
 PK-Rechner_WPF\mscordaccore.dll
-PK-Rechner_WPF\mscordaccore_amd64_amd64_5.0.921.35908.dll
+PK-Rechner_WPF\mscordaccore_amd64_amd64_5.0.1021.41214.dll
 PK-Rechner_WPF\mscordbi.dll
 PK-Rechner_WPF\mscorlib.dll
 PK-Rechner_WPF\mscorrc.dll

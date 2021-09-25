@@ -14,6 +14,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MaterialDesignThemes;
+using MaterialDesignColors;
 
 namespace PK_Rechner_WPF
 {
@@ -45,21 +47,49 @@ namespace PK_Rechner_WPF
         {
             try
             {
+                MaterialDesignThemes.Wpf.ButtonProgressAssist.SetIsIndeterminate(Berechnen, true);
                 PKRechner pk = new PKRechner(Geburtsdatum.Text, nachname, kwea, int.Parse(Lfd.Text));
                 pk.PKBerechnen();
+                if (!pk.IsOK)
+                {
+                    ClearData();
+                    return;
+                }
                 string pkennziff = pk.PK;
 
-                PK_lbl.Visibility = Visibility.Visible;
                 PK.Visibility = Visibility.Visible;
-                PK_bd.Visibility = Visibility.Visible;
                 PK.Text = pkennziff;
                 Clipboard.SetText($"{pkennziff}");
-                PK_Cpy_lbl.Visibility = Visibility.Visible;
+                PK_Cpy_lbl.Content = "Deine PK wurde in die Zwischenablage kopiert!";
             }
             catch
             {
+                MaterialDesignThemes.Wpf.ButtonProgressAssist.SetIsIndeterminate(Berechnen, false);
                 MessageBox.Show("Bitte geben Sie Daten ein, die vom Programm verarbeitet werden können!\n\nBei Fragen wenden Sie sich bitte an den Hersteller.", "Bitte korrekte Daten eingeben", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
+            finally
+            {
+                MaterialDesignThemes.Wpf.ButtonProgressAssist.SetIsIndeterminate(Berechnen, false);
+            }
+        }
+
+        private void Reset_Click(object sender, RoutedEventArgs e)
+        {
+            MaterialDesignThemes.Wpf.ButtonProgressAssist.SetIsIndeterminate(Reset, true);
+            ClearData();
+            MaterialDesignThemes.Wpf.ButtonProgressAssist.SetIsIndeterminate(Reset, false);
+        }
+
+        private void ClearData()
+        {
+            Geburtsdatum.Clear();
+            Nachname.SelectedItem = null;
+            KWEA.SelectedItem = null;
+            Lfd.Clear();
+            PK.Visibility = Visibility.Collapsed;
+            PK.Clear();
+            Clipboard.Clear();
+            PK_Cpy_lbl.Content = "Gib alle Daten im korrekten Format ein";
         }
 
         private void AddVersionNumber()
@@ -73,14 +103,20 @@ namespace PK_Rechner_WPF
 
         private void Nachname_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Nachname item = Nachname.SelectedItem as Nachname;
-            nachname = item;
+            if (Nachname.SelectedItem is not null)
+            {
+                Nachname item = Nachname.SelectedItem as Nachname;
+                nachname = item;
+            }
         }
 
         private void KWEA_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            KWEA item = KWEA.SelectedItem as KWEA;
-            kwea = item.Nummer;
+            if (KWEA.SelectedItem is not null)
+            {
+                KWEA item = KWEA.SelectedItem as KWEA;
+                kwea = item.Nummer;
+            }
         }
     }
 }

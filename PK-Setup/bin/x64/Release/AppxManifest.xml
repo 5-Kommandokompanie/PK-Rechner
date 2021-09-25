@@ -7,7 +7,7 @@
 
     Weitere Informationen zu Paketmanifestdateien finden Sie unter http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="64a00e05-ffae-44ca-92b5-c34da849be7e" Publisher="CN=Jan Wöde" Version="2.0.1.0" ProcessorArchitecture="x64" />
+  <Identity Name="64a00e05-ffae-44ca-92b5-c34da849be7e" Publisher="CN=Jan Wöde" Version="2.1.0.0" ProcessorArchitecture="x64" />
   <Properties>
     <DisplayName>PK-Setup</DisplayName>
     <PublisherDisplayName>Master</PublisherDisplayName>

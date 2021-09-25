@@ -80,3 +80,6 @@ A:\modding\PK-Rechner\PK-Rechner_WPF\obj\x64\Release\net5.0-windows\PK-Rechner.d
 A:\modding\PK-Rechner\PK-Rechner_WPF\obj\x64\Release\net5.0-windows\ref\PK-Rechner.dll
 A:\modding\PK-Rechner\PK-Rechner_WPF\obj\x64\Release\net5.0-windows\PK-Rechner.pdb
 A:\modding\PK-Rechner\PK-Rechner_WPF\obj\x64\Release\net5.0-windows\PK-Rechner_WPF.genruntimeconfig.cache
+A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\MaterialDesignColors.dll
+A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Release\net5.0-windows\MaterialDesignThemes.Wpf.dll
+A:\modding\PK-Rechner\PK-Rechner_WPF\obj\x64\Release\net5.0-windows\App.baml
