@@ -16,6 +16,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MaterialDesignThemes;
 using MaterialDesignColors;
+using MaterialDesignThemes.Wpf;
 
 namespace PK_Rechner_WPF
 {
@@ -34,6 +35,17 @@ namespace PK_Rechner_WPF
         {
             InitializeComponent();
 
+            var paletteHelper = new PaletteHelper();
+            var theme = paletteHelper.GetTheme();
+
+            DarkModeToggleButton.IsChecked = theme.GetBaseTheme() == BaseTheme.Dark;
+
+            if (paletteHelper.GetThemeManager() is { } themeManager)
+            {
+                themeManager.ThemeChanged += (_, e)
+                    => DarkModeToggleButton.IsChecked = e.NewTheme?.GetBaseTheme() == BaseTheme.Dark;
+            }
+
             AddVersionNumber();
 
             nachnamen = Helper.InitializeChars(nachnamen);
@@ -41,6 +53,14 @@ namespace PK_Rechner_WPF
 
             kweas = Helper.InitializeKWEAs(kweas);
             KWEA.ItemsSource = kweas;
+        }
+
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                DragMove();
+            }
         }
 
         private void Berechnen_Click(object sender, RoutedEventArgs e)
@@ -52,7 +72,8 @@ namespace PK_Rechner_WPF
                 pk.PKBerechnen();
                 if (!pk.IsOK)
                 {
-                    ClearData();
+                    ClearPK();
+                    Dialog.Content = "Bitte geben Sie Daten ein, die vom Programm verarbeitet werden können!\n\nBei Fragen wenden Sie sich bitte an den Hersteller.";
                     return;
                 }
                 string pkennziff = pk.PK;
@@ -61,31 +82,32 @@ namespace PK_Rechner_WPF
                 PK.Text = pkennziff;
                 Clipboard.SetText($"{pkennziff}");
                 PK_Cpy_lbl.Content = "Deine PK wurde in die Zwischenablage kopiert!";
+                Dialog.Content = "Deine PK wurde in die Zwischenablage kopiert!";
             }
             catch
             {
-                MaterialDesignThemes.Wpf.ButtonProgressAssist.SetIsIndeterminate(Berechnen, false);
-                MessageBox.Show("Bitte geben Sie Daten ein, die vom Programm verarbeitet werden können!\n\nBei Fragen wenden Sie sich bitte an den Hersteller.", "Bitte korrekte Daten eingeben", MessageBoxButton.OK, MessageBoxImage.Warning);
+                ButtonProgressAssist.SetIsIndeterminate(Berechnen, false);
+                Dialog.Content = "Bitte geben Sie Daten ein, die vom Programm verarbeitet werden können!\n\nBei Fragen wenden Sie sich bitte an den Hersteller.";
             }
             finally
             {
-                MaterialDesignThemes.Wpf.ButtonProgressAssist.SetIsIndeterminate(Berechnen, false);
+                ButtonProgressAssist.SetIsIndeterminate(Berechnen, false);
             }
         }
 
         private void Reset_Click(object sender, RoutedEventArgs e)
         {
-            MaterialDesignThemes.Wpf.ButtonProgressAssist.SetIsIndeterminate(Reset, true);
-            ClearData();
-            MaterialDesignThemes.Wpf.ButtonProgressAssist.SetIsIndeterminate(Reset, false);
-        }
-
-        private void ClearData()
-        {
+            ButtonProgressAssist.SetIsIndeterminate(Reset, true);
             Geburtsdatum.Clear();
             Nachname.SelectedItem = null;
             KWEA.SelectedItem = null;
             Lfd.Clear();
+            ClearPK();
+            ButtonProgressAssist.SetIsIndeterminate(Reset, false);
+        }
+
+        private void ClearPK()
+        {
             PK.Visibility = Visibility.Collapsed;
             PK.Clear();
             Clipboard.Clear();
@@ -98,6 +120,8 @@ namespace PK_Rechner_WPF
             FileVersionInfo versionInfo = FileVersionInfo.GetVersionInfo(assembly.Location);
 
             this.Title += $" v.{versionInfo.FileVersion}";
+            Header.Text += $" v.{versionInfo.FileVersion}";
+            AutorMenu.Content = versionInfo.LegalCopyright;
             Autor.Content = versionInfo.LegalCopyright;
         }
 
@@ -117,6 +141,28 @@ namespace PK_Rechner_WPF
                 KWEA item = KWEA.SelectedItem as KWEA;
                 kwea = item.Nummer;
             }
+        }
+
+        private void MenuDarkModeButton_Click(object sender, RoutedEventArgs e)
+            => ModifyTheme(DarkModeToggleButton.IsChecked == true);
+
+        private static void ModifyTheme(bool isDarkTheme)
+        {
+            var paletteHelper = new PaletteHelper();
+            var theme = paletteHelper.GetTheme();
+
+            theme.SetBaseTheme(isDarkTheme ? Theme.Dark : Theme.Light);
+            paletteHelper.SetTheme(theme);
+        }
+
+        private void Close_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Minimize_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
         }
     }
 }

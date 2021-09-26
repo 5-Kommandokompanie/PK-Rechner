@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AppInstaller
 	Uri="https://5.kdokp.de/pk/PK-Setup.appinstaller"
-	Version="2.1.0.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	Version="2.2.0.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
 	<MainBundle
 		Name="64a00e05-ffae-44ca-92b5-c34da849be7e"
-		Version="2.1.0.0"
+		Version="2.2.0.0"
 		Publisher="CN=Jan Wöde"
-		Uri="https://5.kdokp.de/pk/PK-Setup_2.1.0.0_Test/PK-Setup_2.1.0.0_x64.msixbundle" />
+		Uri="https://5.kdokp.de/pk/PK-Setup_2.2.0.0_Test/PK-Setup_2.2.0.0_x64.msixbundle" />
 	<UpdateSettings>
 		<OnLaunch
 			HoursBetweenUpdateChecks="0" />

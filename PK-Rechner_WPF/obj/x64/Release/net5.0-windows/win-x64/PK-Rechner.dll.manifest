@@ -1764,13 +1764,13 @@
       <dsig:DigestValue>KLqPwlg+Qs6j24bOgyaDcLf3LbSe5gPBRgdzmsGhaqA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="PK-Rechner.dll" size="145920">
+  <file name="PK-Rechner.dll" size="148992">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>zUCXNmdPStJHlPN8SmGBOge+v1YHV9sABrl2SVeEUvQ=</dsig:DigestValue>
+      <dsig:DigestValue>SnjgEYWbfnlzwUxoh0tT/bMVDtqHVW/UYG4kX5ajEbA=</dsig:DigestValue>
     </hash>
   </file>
   <file name="PK-Rechner.dll.config" size="187">
@@ -1788,7 +1788,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>FBYmIJyWx8b1CKSKezcDD706uM82l3c5Z0DL4VfxpB0=</dsig:DigestValue>
+      <dsig:DigestValue>Ol5e6QKBMNXW6TanRlp9BemCFEtc5Z0SgfSga0VqniQ=</dsig:DigestValue>
     </hash>
   </file>
   <file name="pl\Microsoft.VisualBasic.Forms.resources.dll" size="24440">

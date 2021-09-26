@@ -13,80 +13,140 @@
         TextOptions.TextRenderingMode="Auto"        
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
-        Title="PK-Rechner" Height="810" Width="570">
-    <WrapPanel Margin="5" Orientation="Vertical">
-        <materialDesign:Card Padding="24" Margin="16" UniformCornerRadius="10">
-            <WrapPanel>
-                <Label Style="{DynamicResource MaterialDesignLabel}" Content="Geburtsdatum (TT.MM.JJ):" VerticalAlignment="Center"/>
-                <TextBox Style="{DynamicResource MaterialDesignFilledTextBox}" x:Name="Geburtsdatum" MaxLength="8" MinWidth="100" MaxWidth="200" HorizontalAlignment="Left"/>
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        MouseDown="Window_MouseDown"
+        Title="PK-Rechner" Height="850" Width="537">
+    <materialDesign:DialogHost>
+        <materialDesign:DialogHost.DialogContent>
+            <StackPanel Margin="20">
+                <Label Style="{DynamicResource MaterialDesignLabel}" x:Name="Dialog"/>
+                <Button Style="{StaticResource MaterialDesignFlatButton}" Content="OK" Command="{x:Static materialDesign:DialogHost.CloseDialogCommand}" Margin="10,20,10,10" Width="50"/>
+            </StackPanel>
+        </materialDesign:DialogHost.DialogContent>
+        <WrapPanel Orientation="Vertical">
+            <DockPanel>
+                <materialDesign:ColorZone
+                    Padding="16"
+                    materialDesign:ShadowAssist.ShadowDepth="Depth2"
+                    Mode="PrimaryMid"
+                    DockPanel.Dock="Top">
+                    <DockPanel>
+                        <materialDesign:PopupBox DockPanel.Dock="Left" PlacementMode="BottomAndAlignLeftEdges" StaysOpen="False">
+                            <StackPanel>
+                                <Grid Margin="10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition />
+                                    </Grid.RowDefinitions>
+                                    <TextBlock
+                                        Text="Light"
+                                        Margin="0 0 10 0"
+                                        Grid.Column="0"/>
+                                    <ToggleButton
+                                        x:Name="DarkModeToggleButton"
+                                        Click="MenuDarkModeButton_Click"
+                                        Grid.Column="1"/>
+                                    <TextBlock
+                                        Text="Dark"
+                                        Margin="10 0 0 0"
+                                        Grid.Column="2"/>
+                                </Grid>
+                                <Separator/>
+                                <Label Style="{DynamicResource MaterialDesignLabel}" x:Name="AutorMenu" FontSize="8" FontStyle="Italic"/>
+                            </StackPanel>
+                        </materialDesign:PopupBox>
+                        <Button DockPanel.Dock="Right" Style="{StaticResource MaterialDesignToolButton}" Content="{materialDesign:PackIcon Kind=WindowClose, Size=24}" Width="30"
+                                Foreground="{Binding RelativeSource={RelativeSource AncestorType={x:Type FrameworkElement}}, Path=(TextElement.Foreground)}"
+                                materialDesign:RippleAssist.Feedback="{Binding RelativeSource={RelativeSource Self}, Path=Foreground, Converter={StaticResource BrushRoundConverter}}"
+                                x:Name="Close" Click="Close_Click"
+                        />
+                        <Button DockPanel.Dock="Right" Style="{StaticResource MaterialDesignToolButton}" Content="{materialDesign:PackIcon Kind=WindowMinimize, Size=24}" Width="30"
+                                Foreground="{Binding RelativeSource={RelativeSource AncestorType={x:Type FrameworkElement}}, Path=(TextElement.Foreground)}"
+                                materialDesign:RippleAssist.Feedback="{Binding RelativeSource={RelativeSource Self}, Path=Foreground, Converter={StaticResource BrushRoundConverter}}"
+                                x:Name="Minimize" Click="Minimize_Click" Cursor="Hand"
+                        />
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="22" Text="PK-Rechner" x:Name="Header"/>
+                    </DockPanel>
+                </materialDesign:ColorZone>
+            </DockPanel>
+            <materialDesign:Card Padding="24" Margin="16" UniformCornerRadius="10">
+                <WrapPanel>
+                    <Label Style="{DynamicResource MaterialDesignLabel}" Content="Geburtsdatum (TT.MM.JJ):" VerticalAlignment="Center"/>
+                    <TextBox Style="{DynamicResource MaterialDesignFilledTextBox}" x:Name="Geburtsdatum" MaxLength="8" MinWidth="100" MaxWidth="200" HorizontalAlignment="Left"/>
+                </WrapPanel>
+            </materialDesign:Card>
+            <materialDesign:Card Padding="24" Margin="16" UniformCornerRadius="10">
+                <WrapPanel>
+                    <Label Style="{DynamicResource MaterialDesignLabel}" Content="Erster Buchstabe des Nachnamen:" VerticalAlignment="Center"/>
+                    <ComboBox Style="{DynamicResource MaterialDesignFilledComboBox}" x:Name="Nachname" SelectionChanged="Nachname_SelectionChanged" MinWidth="200" MaxWidth="300" HorizontalAlignment="Left">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Buchstabe}"/>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                </WrapPanel>
+            </materialDesign:Card>
+            <materialDesign:Card Padding="24" Margin="16" UniformCornerRadius="10">
+                <WrapPanel>
+                    <Label Style="{DynamicResource MaterialDesignLabel}" Content="Kreiswehrersatzamt (heute Karrierecenter):" VerticalAlignment="Center"/>
+                    <ComboBox Style="{DynamicResource MaterialDesignFilledComboBox}" x:Name="KWEA" SelectionChanged="KWEA_SelectionChanged" MinWidth="200" MaxWidth="300" HorizontalAlignment="Left">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Name}"/>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                </WrapPanel>
+            </materialDesign:Card>
+            <materialDesign:Card Padding="24" Margin="16" UniformCornerRadius="10">
+                <WrapPanel>
+                    <Label Style="{DynamicResource MaterialDesignLabel}" Content="Laufende Zahl (im Normalfall 1):" VerticalAlignment="Center"/>
+                    <TextBox Style="{DynamicResource MaterialDesignFilledTextBox}" x:Name="Lfd" MaxLength="1" MinWidth="50" MaxWidth="100" HorizontalAlignment="Left" Cursor="IBeam"/>
+                </WrapPanel>
+            </materialDesign:Card>
+            <WrapPanel HorizontalAlignment="Center" Height="50" Margin="4">
+                <Button
+                    MinWidth="80" MaxWidth="120" 
+                    Style="{StaticResource MaterialDesignRaisedAccentButton}"
+                    Command="{x:Static materialDesign:DialogHost.OpenDialogCommand}"
+                    materialDesign:ButtonAssist.CornerRadius="25 25 10 25"
+                    x:Name="Berechnen"
+                    Height="50"
+                    Content="Berechnen" Click="Berechnen_Click"
+                    materialDesign:ButtonProgressAssist.Value="-1"
+                    materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+                    materialDesign:ButtonProgressAssist.IsIndeterminate="False"
+                    Margin="2,0,20,0"
+                    IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Cursor="Hand"
+                />
+                <Button
+                    MinWidth="55" MaxWidth="65" 
+                    Style="{StaticResource MaterialDesignRaisedAccentButton}"
+                    materialDesign:ButtonAssist.CornerRadius="25 25 10 25"
+                    x:Name="Reset"
+                    Height="50"
+                    Content="{materialDesign:PackIcon Kind=Restore, Size=25}" Click="Reset_Click"
+                    materialDesign:ButtonProgressAssist.Value="-1"
+                    materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+                    materialDesign:ButtonProgressAssist.IsIndeterminate="False"
+                    Margin="2,0"
+                    IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Cursor="Hand"
+                />
             </WrapPanel>
-        </materialDesign:Card>
-        <materialDesign:Card Padding="24" Margin="16" UniformCornerRadius="10">
-            <WrapPanel>
-                <Label Style="{DynamicResource MaterialDesignLabel}" Content="Erster Buchstabe des Nachnamen:" VerticalAlignment="Center"/>
-                <ComboBox Style="{DynamicResource MaterialDesignFilledComboBox}" x:Name="Nachname" SelectionChanged="Nachname_SelectionChanged" MinWidth="200" MaxWidth="300" HorizontalAlignment="Left">
-                    <ComboBox.ItemTemplate>
-                        <DataTemplate>
-                            <TextBlock Text="{Binding Buchstabe}"/>
-                        </DataTemplate>
-                    </ComboBox.ItemTemplate>
-                </ComboBox>
-            </WrapPanel>
-        </materialDesign:Card>
-        <materialDesign:Card Padding="24" Margin="16" UniformCornerRadius="10">
-            <WrapPanel>
-                <Label Style="{DynamicResource MaterialDesignLabel}" Content="Kreiswehrersatzamt (heute Karrierecenter):" VerticalAlignment="Center"/>
-                <ComboBox Style="{DynamicResource MaterialDesignFilledComboBox}" x:Name="KWEA" SelectionChanged="KWEA_SelectionChanged" MinWidth="200" MaxWidth="300" HorizontalAlignment="Left">
-                    <ComboBox.ItemTemplate>
-                        <DataTemplate>
-                            <TextBlock Text="{Binding Name}"/>
-                        </DataTemplate>
-                    </ComboBox.ItemTemplate>
-                </ComboBox>
-            </WrapPanel>
-        </materialDesign:Card>
-        <materialDesign:Card Padding="24" Margin="16" UniformCornerRadius="10">
-            <WrapPanel>
-                <Label Style="{DynamicResource MaterialDesignLabel}" Content="Laufende Zahl (im Normalfall 1):" VerticalAlignment="Center"/>
-                <TextBox Style="{DynamicResource MaterialDesignFilledTextBox}" x:Name="Lfd" MaxLength="1" MinWidth="50" MaxWidth="100" HorizontalAlignment="Left" Cursor="IBeam"/>
-            </WrapPanel>
-        </materialDesign:Card>
-        <WrapPanel HorizontalAlignment="Center"
-            Height="50" Margin="4">
-            <Button
-                MinWidth="80" MaxWidth="120" 
-                Style="{StaticResource MaterialDesignRaisedAccentButton}"
-                materialDesign:ButtonAssist.CornerRadius="25 25 10 25"
-                x:Name="Berechnen"
-                Height="50"
-                Content="Berechnen" Click="Berechnen_Click"
-                materialDesign:ButtonProgressAssist.Value="-1"
-                materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
-                materialDesign:ButtonProgressAssist.IsIndeterminate="False"
-                Margin="2,0,20,0"
-                IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Cursor="Hand"
-            />
-            <Button
-                MinWidth="55" MaxWidth="65" 
-                Style="{StaticResource MaterialDesignRaisedAccentButton}"
-                materialDesign:ButtonAssist.CornerRadius="25 25 10 25"
-                x:Name="Reset"
-                Height="50"
-                Content="{materialDesign:PackIcon Kind=Restore, Size=25}" Click="Reset_Click"
-                materialDesign:ButtonProgressAssist.Value="-1"
-                materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
-                materialDesign:ButtonProgressAssist.IsIndeterminate="False"
-                Margin="2,0"
-                IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Cursor="Hand"
-            />
+            <materialDesign:Card Padding="24" Margin="16" UniformCornerRadius="10">
+                <WrapPanel>
+                    <Label Style="{DynamicResource MaterialDesignLabel}" Content="Die PK lautet: " FontWeight="Bold" VerticalAlignment="Center"/>
+                    <TextBox Style="{DynamicResource MaterialDesignOutlinedTextBox}" IsReadOnly="True" x:Name="PK" Visibility="Collapsed" FontWeight="Black"/>
+                </WrapPanel>
+            </materialDesign:Card>
+            <Label Style="{DynamicResource MaterialDesignLabel}" x:Name="PK_Cpy_lbl" Content="Gib alle Daten im korrekten Format ein" FontStyle="Italic" Margin="10,0,0,0"/>
+            <Label Style="{DynamicResource MaterialDesignLabel}" x:Name="Autor" FontSize="8" FontStyle="Italic" Margin="10,30,0,0"/>
         </WrapPanel>
-        <materialDesign:Card Padding="24" Margin="16" UniformCornerRadius="10">
-            <WrapPanel>
-                <Label Style="{DynamicResource MaterialDesignLabel}" Content="Die PK lautet: " FontWeight="Bold" VerticalAlignment="Center"/>
-                <TextBox Style="{DynamicResource MaterialDesignOutlinedTextBox}" IsReadOnly="True" x:Name="PK" Visibility="Collapsed" FontWeight="Black"/>
-            </WrapPanel>
-        </materialDesign:Card>
-        <Label Style="{DynamicResource MaterialDesignLabel}" x:Name="PK_Cpy_lbl" Content="Gib alle Daten im korrekten Format ein" FontStyle="Italic"/>
-        <Label Style="{DynamicResource MaterialDesignLabel}" x:Name="Autor" FontSize="8" FontStyle="Italic" Margin="0,30,0,0"/>
-    </WrapPanel>
+    </materialDesign:DialogHost>
 </Window>

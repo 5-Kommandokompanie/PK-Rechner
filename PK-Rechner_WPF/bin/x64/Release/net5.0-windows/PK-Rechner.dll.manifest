@@ -81,13 +81,13 @@
       <dsig:DigestValue>igdCLVN0aLnTM6zGqT1PxThCNvwTFFTavbSwq/yBSPQ=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="PK-Rechner.dll" size="145920">
+  <file name="PK-Rechner.dll" size="148992">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Q5OOWVEBMYjMLeVnifWb/KI4kV+ExAu7WRSDtn6fpRU=</dsig:DigestValue>
+      <dsig:DigestValue>7xags4YbGN7jXpI9diwvw7jSzbwbL+ZCSX8vsBPgD5U=</dsig:DigestValue>
     </hash>
   </file>
   <file name="PK-Rechner.dll.config" size="187">
@@ -105,7 +105,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>FBYmIJyWx8b1CKSKezcDD706uM82l3c5Z0DL4VfxpB0=</dsig:DigestValue>
+      <dsig:DigestValue>Ol5e6QKBMNXW6TanRlp9BemCFEtc5Z0SgfSga0VqniQ=</dsig:DigestValue>
     </hash>
   </file>
   <file name="runtimes\freebsd\lib\netcoreapp2.0\System.Data.Odbc.dll" size="265096">

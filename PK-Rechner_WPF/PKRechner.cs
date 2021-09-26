@@ -83,12 +83,7 @@ namespace PK_Rechner_WPF
             int _geburtsjahr = geburtsjahr;
 
             //Prüfen, ob das eingegebene Datum valide ist
-            if ((_geburtstag < 0 || _geburtstag > 31) || (_geburtsmonat < 0 || _geburtsmonat > 12) || (_geburtsjahr < 0 || _geburtsjahr > 99))
-            {
-                MessageBox.Show("Bitte geben Sie Daten ein, die vom Programm verarbeitet werden können!\n\nBei Fragen wenden Sie sich bitte an den Hersteller.", "Bitte korrekte Daten eingeben", MessageBoxButton.OK, MessageBoxImage.Warning);
-                IsOK = false;
-            }
-            else IsOK = true;
+            IsOK = ((_geburtstag < 0 || _geburtstag > 31) || (_geburtsmonat < 0 || _geburtsmonat > 12) || (_geburtsjahr < 0 || _geburtsjahr > 99)) ? false : true;
 
             fertigesGeburtsdatum = new int[6];
 
