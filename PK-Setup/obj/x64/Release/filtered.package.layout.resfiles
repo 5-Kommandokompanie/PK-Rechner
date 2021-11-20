@@ -96,7 +96,6 @@ PK-Rechner_WPF\api-ms-win-crt-stdio-l1-1-0.dll
 PK-Rechner_WPF\api-ms-win-crt-string-l1-1-0.dll
 PK-Rechner_WPF\api-ms-win-crt-time-l1-1-0.dll
 PK-Rechner_WPF\api-ms-win-crt-utility-l1-1-0.dll
-PK-Rechner_WPF\clrcompression.dll
 PK-Rechner_WPF\clretwrc.dll
 PK-Rechner_WPF\clrjit.dll
 PK-Rechner_WPF\coreclr.dll
@@ -108,8 +107,10 @@ PK-Rechner_WPF\hostfxr.dll
 PK-Rechner_WPF\hostpolicy.dll
 PK-Rechner_WPF\MaterialDesignColors.dll
 PK-Rechner_WPF\MaterialDesignThemes.Wpf.dll
+PK-Rechner_WPF\Microsoft.Bcl.AsyncInterfaces.dll
 PK-Rechner_WPF\Microsoft.CSharp.dll
 PK-Rechner_WPF\Microsoft.DiaSymReader.Native.amd64.dll
+PK-Rechner_WPF\Microsoft.Extensions.ObjectPool.dll
 PK-Rechner_WPF\Microsoft.VisualBasic.Core.dll
 PK-Rechner_WPF\Microsoft.VisualBasic.dll
 PK-Rechner_WPF\Microsoft.VisualBasic.Forms.dll
@@ -117,11 +118,13 @@ PK-Rechner_WPF\Microsoft.Win32.Primitives.dll
 PK-Rechner_WPF\Microsoft.Win32.Registry.AccessControl.dll
 PK-Rechner_WPF\Microsoft.Win32.Registry.dll
 PK-Rechner_WPF\Microsoft.Win32.SystemEvents.dll
+PK-Rechner_WPF\Microsoft.Windows.SDK.NET.dll
 PK-Rechner_WPF\mscordaccore.dll
-PK-Rechner_WPF\mscordaccore_amd64_amd64_5.0.1021.41214.dll
+PK-Rechner_WPF\mscordaccore_amd64_amd64_6.0.21.52210.dll
 PK-Rechner_WPF\mscordbi.dll
 PK-Rechner_WPF\mscorlib.dll
 PK-Rechner_WPF\mscorrc.dll
+PK-Rechner_WPF\msquic.dll
 PK-Rechner_WPF\netstandard.dll
 PK-Rechner_WPF\PenImc_cor3.dll
 PK-Rechner_WPF\PK-Rechner.deps.json
@@ -202,6 +205,7 @@ PK-Rechner_WPF\System.Globalization.Extensions.dll
 PK-Rechner_WPF\System.IO.Compression.Brotli.dll
 PK-Rechner_WPF\System.IO.Compression.dll
 PK-Rechner_WPF\System.IO.Compression.FileSystem.dll
+PK-Rechner_WPF\System.IO.Compression.Native.dll
 PK-Rechner_WPF\System.IO.Compression.ZipFile.dll
 PK-Rechner_WPF\System.IO.dll
 PK-Rechner_WPF\System.IO.FileSystem.AccessControl.dll
@@ -231,6 +235,7 @@ PK-Rechner_WPF\System.Net.NameResolution.dll
 PK-Rechner_WPF\System.Net.NetworkInformation.dll
 PK-Rechner_WPF\System.Net.Ping.dll
 PK-Rechner_WPF\System.Net.Primitives.dll
+PK-Rechner_WPF\System.Net.Quic.dll
 PK-Rechner_WPF\System.Net.Requests.dll
 PK-Rechner_WPF\System.Net.Security.dll
 PK-Rechner_WPF\System.Net.ServicePoint.dll
@@ -330,6 +335,7 @@ PK-Rechner_WPF\System.Transactions.Local.dll
 PK-Rechner_WPF\System.ValueTuple.dll
 PK-Rechner_WPF\System.Web.dll
 PK-Rechner_WPF\System.Web.HttpUtility.dll
+PK-Rechner_WPF\System.Web.Services.Description.dll
 PK-Rechner_WPF\System.Windows.Controls.Ribbon.dll
 PK-Rechner_WPF\System.Windows.dll
 PK-Rechner_WPF\System.Windows.Extensions.dll
@@ -357,4 +363,5 @@ PK-Rechner_WPF\UIAutomationTypes.dll
 PK-Rechner_WPF\vcruntime140_cor3.dll
 PK-Rechner_WPF\WindowsBase.dll
 PK-Rechner_WPF\WindowsFormsIntegration.dll
+PK-Rechner_WPF\WinRT.Runtime.dll
 PK-Rechner_WPF\wpfgfx_cor3.dll

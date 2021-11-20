@@ -3,6 +3,8 @@ PK-Rechner_WPF\cs\PresentationCore.resources.dll
 PK-Rechner_WPF\cs\PresentationFramework.resources.dll
 PK-Rechner_WPF\cs\PresentationUI.resources.dll
 PK-Rechner_WPF\cs\ReachFramework.resources.dll
+PK-Rechner_WPF\cs\System.Private.ServiceModel.resources.dll
+PK-Rechner_WPF\cs\System.Web.Services.Description.resources.dll
 PK-Rechner_WPF\cs\System.Windows.Controls.Ribbon.resources.dll
 PK-Rechner_WPF\cs\System.Windows.Forms.Design.resources.dll
 PK-Rechner_WPF\cs\System.Windows.Forms.Primitives.resources.dll
@@ -20,6 +22,8 @@ PK-Rechner_WPF\de\PresentationCore.resources.dll
 PK-Rechner_WPF\de\PresentationFramework.resources.dll
 PK-Rechner_WPF\de\PresentationUI.resources.dll
 PK-Rechner_WPF\de\ReachFramework.resources.dll
+PK-Rechner_WPF\de\System.Private.ServiceModel.resources.dll
+PK-Rechner_WPF\de\System.Web.Services.Description.resources.dll
 PK-Rechner_WPF\de\System.Windows.Controls.Ribbon.resources.dll
 PK-Rechner_WPF\de\System.Windows.Forms.Design.resources.dll
 PK-Rechner_WPF\de\System.Windows.Forms.Primitives.resources.dll
@@ -37,6 +41,8 @@ PK-Rechner_WPF\es\PresentationCore.resources.dll
 PK-Rechner_WPF\es\PresentationFramework.resources.dll
 PK-Rechner_WPF\es\PresentationUI.resources.dll
 PK-Rechner_WPF\es\ReachFramework.resources.dll
+PK-Rechner_WPF\es\System.Private.ServiceModel.resources.dll
+PK-Rechner_WPF\es\System.Web.Services.Description.resources.dll
 PK-Rechner_WPF\es\System.Windows.Controls.Ribbon.resources.dll
 PK-Rechner_WPF\es\System.Windows.Forms.Design.resources.dll
 PK-Rechner_WPF\es\System.Windows.Forms.Primitives.resources.dll
@@ -54,6 +60,8 @@ PK-Rechner_WPF\fr\PresentationCore.resources.dll
 PK-Rechner_WPF\fr\PresentationFramework.resources.dll
 PK-Rechner_WPF\fr\PresentationUI.resources.dll
 PK-Rechner_WPF\fr\ReachFramework.resources.dll
+PK-Rechner_WPF\fr\System.Private.ServiceModel.resources.dll
+PK-Rechner_WPF\fr\System.Web.Services.Description.resources.dll
 PK-Rechner_WPF\fr\System.Windows.Controls.Ribbon.resources.dll
 PK-Rechner_WPF\fr\System.Windows.Forms.Design.resources.dll
 PK-Rechner_WPF\fr\System.Windows.Forms.Primitives.resources.dll
@@ -71,6 +79,8 @@ PK-Rechner_WPF\it\PresentationCore.resources.dll
 PK-Rechner_WPF\it\PresentationFramework.resources.dll
 PK-Rechner_WPF\it\PresentationUI.resources.dll
 PK-Rechner_WPF\it\ReachFramework.resources.dll
+PK-Rechner_WPF\it\System.Private.ServiceModel.resources.dll
+PK-Rechner_WPF\it\System.Web.Services.Description.resources.dll
 PK-Rechner_WPF\it\System.Windows.Controls.Ribbon.resources.dll
 PK-Rechner_WPF\it\System.Windows.Forms.Design.resources.dll
 PK-Rechner_WPF\it\System.Windows.Forms.Primitives.resources.dll
@@ -88,6 +98,8 @@ PK-Rechner_WPF\ja\PresentationCore.resources.dll
 PK-Rechner_WPF\ja\PresentationFramework.resources.dll
 PK-Rechner_WPF\ja\PresentationUI.resources.dll
 PK-Rechner_WPF\ja\ReachFramework.resources.dll
+PK-Rechner_WPF\ja\System.Private.ServiceModel.resources.dll
+PK-Rechner_WPF\ja\System.Web.Services.Description.resources.dll
 PK-Rechner_WPF\ja\System.Windows.Controls.Ribbon.resources.dll
 PK-Rechner_WPF\ja\System.Windows.Forms.Design.resources.dll
 PK-Rechner_WPF\ja\System.Windows.Forms.Primitives.resources.dll
@@ -105,6 +117,8 @@ PK-Rechner_WPF\ko\PresentationCore.resources.dll
 PK-Rechner_WPF\ko\PresentationFramework.resources.dll
 PK-Rechner_WPF\ko\PresentationUI.resources.dll
 PK-Rechner_WPF\ko\ReachFramework.resources.dll
+PK-Rechner_WPF\ko\System.Private.ServiceModel.resources.dll
+PK-Rechner_WPF\ko\System.Web.Services.Description.resources.dll
 PK-Rechner_WPF\ko\System.Windows.Controls.Ribbon.resources.dll
 PK-Rechner_WPF\ko\System.Windows.Forms.Design.resources.dll
 PK-Rechner_WPF\ko\System.Windows.Forms.Primitives.resources.dll
@@ -122,6 +136,8 @@ PK-Rechner_WPF\pl\PresentationCore.resources.dll
 PK-Rechner_WPF\pl\PresentationFramework.resources.dll
 PK-Rechner_WPF\pl\PresentationUI.resources.dll
 PK-Rechner_WPF\pl\ReachFramework.resources.dll
+PK-Rechner_WPF\pl\System.Private.ServiceModel.resources.dll
+PK-Rechner_WPF\pl\System.Web.Services.Description.resources.dll
 PK-Rechner_WPF\pl\System.Windows.Controls.Ribbon.resources.dll
 PK-Rechner_WPF\pl\System.Windows.Forms.Design.resources.dll
 PK-Rechner_WPF\pl\System.Windows.Forms.Primitives.resources.dll
@@ -139,6 +155,8 @@ PK-Rechner_WPF\pt-BR\PresentationCore.resources.dll
 PK-Rechner_WPF\pt-BR\PresentationFramework.resources.dll
 PK-Rechner_WPF\pt-BR\PresentationUI.resources.dll
 PK-Rechner_WPF\pt-BR\ReachFramework.resources.dll
+PK-Rechner_WPF\pt-BR\System.Private.ServiceModel.resources.dll
+PK-Rechner_WPF\pt-BR\System.Web.Services.Description.resources.dll
 PK-Rechner_WPF\pt-BR\System.Windows.Controls.Ribbon.resources.dll
 PK-Rechner_WPF\pt-BR\System.Windows.Forms.Design.resources.dll
 PK-Rechner_WPF\pt-BR\System.Windows.Forms.Primitives.resources.dll
@@ -156,6 +174,8 @@ PK-Rechner_WPF\ru\PresentationCore.resources.dll
 PK-Rechner_WPF\ru\PresentationFramework.resources.dll
 PK-Rechner_WPF\ru\PresentationUI.resources.dll
 PK-Rechner_WPF\ru\ReachFramework.resources.dll
+PK-Rechner_WPF\ru\System.Private.ServiceModel.resources.dll
+PK-Rechner_WPF\ru\System.Web.Services.Description.resources.dll
 PK-Rechner_WPF\ru\System.Windows.Controls.Ribbon.resources.dll
 PK-Rechner_WPF\ru\System.Windows.Forms.Design.resources.dll
 PK-Rechner_WPF\ru\System.Windows.Forms.Primitives.resources.dll
@@ -173,6 +193,8 @@ PK-Rechner_WPF\tr\PresentationCore.resources.dll
 PK-Rechner_WPF\tr\PresentationFramework.resources.dll
 PK-Rechner_WPF\tr\PresentationUI.resources.dll
 PK-Rechner_WPF\tr\ReachFramework.resources.dll
+PK-Rechner_WPF\tr\System.Private.ServiceModel.resources.dll
+PK-Rechner_WPF\tr\System.Web.Services.Description.resources.dll
 PK-Rechner_WPF\tr\System.Windows.Controls.Ribbon.resources.dll
 PK-Rechner_WPF\tr\System.Windows.Forms.Design.resources.dll
 PK-Rechner_WPF\tr\System.Windows.Forms.Primitives.resources.dll
@@ -190,6 +212,8 @@ PK-Rechner_WPF\zh-Hans\PresentationCore.resources.dll
 PK-Rechner_WPF\zh-Hans\PresentationFramework.resources.dll
 PK-Rechner_WPF\zh-Hans\PresentationUI.resources.dll
 PK-Rechner_WPF\zh-Hans\ReachFramework.resources.dll
+PK-Rechner_WPF\zh-Hans\System.Private.ServiceModel.resources.dll
+PK-Rechner_WPF\zh-Hans\System.Web.Services.Description.resources.dll
 PK-Rechner_WPF\zh-Hans\System.Windows.Controls.Ribbon.resources.dll
 PK-Rechner_WPF\zh-Hans\System.Windows.Forms.Design.resources.dll
 PK-Rechner_WPF\zh-Hans\System.Windows.Forms.Primitives.resources.dll
@@ -207,6 +231,8 @@ PK-Rechner_WPF\zh-Hant\PresentationCore.resources.dll
 PK-Rechner_WPF\zh-Hant\PresentationFramework.resources.dll
 PK-Rechner_WPF\zh-Hant\PresentationUI.resources.dll
 PK-Rechner_WPF\zh-Hant\ReachFramework.resources.dll
+PK-Rechner_WPF\zh-Hant\System.Private.ServiceModel.resources.dll
+PK-Rechner_WPF\zh-Hant\System.Web.Services.Description.resources.dll
 PK-Rechner_WPF\zh-Hant\System.Windows.Controls.Ribbon.resources.dll
 PK-Rechner_WPF\zh-Hant\System.Windows.Forms.Design.resources.dll
 PK-Rechner_WPF\zh-Hant\System.Windows.Forms.Primitives.resources.dll

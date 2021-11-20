@@ -10,12 +10,12 @@
         TextElement.FontWeight="Regular"
         TextElement.FontSize="13"
         TextOptions.TextFormattingMode="Ideal" 
-        TextOptions.TextRenderingMode="Auto"        
-        Background="{DynamicResource MaterialDesignPaper}"
+        TextOptions.TextRenderingMode="Auto"
         FontFamily="{DynamicResource MaterialDesignFont}"
         WindowStyle="None"
         ResizeMode="NoResize"
-        MouseDown="Window_MouseDown"
+        AllowsTransparency="True"
+        Background="Transparent"
         Title="PK-Rechner" Height="850" Width="537">
     <materialDesign:DialogHost>
         <materialDesign:DialogHost.DialogContent>
@@ -24,8 +24,8 @@
                 <Button Style="{StaticResource MaterialDesignFlatButton}" Content="OK" Command="{x:Static materialDesign:DialogHost.CloseDialogCommand}" Margin="10,20,10,10" Width="50"/>
             </StackPanel>
         </materialDesign:DialogHost.DialogContent>
-        <WrapPanel Orientation="Vertical">
-            <DockPanel>
+        <WrapPanel Orientation="Vertical" Background="{DynamicResource MaterialDesignPaper}">
+            <DockPanel MouseDown="Window_MouseDown">
                 <materialDesign:ColorZone
                     Padding="16"
                     materialDesign:ShadowAssist.ShadowDepth="Depth2"
@@ -110,14 +110,14 @@
                     <TextBox Style="{DynamicResource MaterialDesignFilledTextBox}" x:Name="Lfd" MaxLength="1" MinWidth="50" MaxWidth="100" HorizontalAlignment="Left" Cursor="IBeam"/>
                 </WrapPanel>
             </materialDesign:Card>
-            <WrapPanel HorizontalAlignment="Center" Height="50" Margin="4">
+            <WrapPanel HorizontalAlignment="Center" Height="35" Margin="4">
                 <Button
-                    MinWidth="80" MaxWidth="120" 
+                    Width="100"
                     Style="{StaticResource MaterialDesignRaisedAccentButton}"
                     Command="{x:Static materialDesign:DialogHost.OpenDialogCommand}"
-                    materialDesign:ButtonAssist.CornerRadius="25 25 10 25"
+                    materialDesign:ButtonAssist.CornerRadius="5"
                     x:Name="Berechnen"
-                    Height="50"
+                    Height="35"
                     Content="Berechnen" Click="Berechnen_Click"
                     materialDesign:ButtonProgressAssist.Value="-1"
                     materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
@@ -126,11 +126,11 @@
                     IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Cursor="Hand"
                 />
                 <Button
-                    MinWidth="55" MaxWidth="65" 
+                    Width="55"
                     Style="{StaticResource MaterialDesignRaisedAccentButton}"
-                    materialDesign:ButtonAssist.CornerRadius="25 25 10 25"
+                    materialDesign:ButtonAssist.CornerRadius="5"
                     x:Name="Reset"
-                    Height="50"
+                    Height="35"
                     Content="{materialDesign:PackIcon Kind=Restore, Size=25}" Click="Reset_Click"
                     materialDesign:ButtonProgressAssist.Value="-1"
                     materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"

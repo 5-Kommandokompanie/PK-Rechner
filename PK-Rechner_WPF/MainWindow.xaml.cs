@@ -67,7 +67,7 @@ namespace PK_Rechner_WPF
         {
             try
             {
-                MaterialDesignThemes.Wpf.ButtonProgressAssist.SetIsIndeterminate(Berechnen, true);
+                ButtonProgressAssist.SetIsIndeterminate(Berechnen, true);
                 PKRechner pk = new PKRechner(Geburtsdatum.Text, nachname, kwea, int.Parse(Lfd.Text));
                 pk.PKBerechnen();
                 if (!pk.IsOK)

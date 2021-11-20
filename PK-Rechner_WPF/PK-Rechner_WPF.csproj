@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows10.0.22000.0</TargetFramework>
     <OutputType>WinExe</OutputType>
     <RootNamespace>PK_Rechner_WPF</RootNamespace>
     <AssemblyName>PK-Rechner</AssemblyName>
@@ -61,6 +61,7 @@
     <Authors>Jan Wöde</Authors>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>PK-Rechner_WPF_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+    <SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
   </PropertyGroup>
   <ItemGroup>
     <Resource Include="logo.ico" />
@@ -80,7 +81,7 @@
   <ItemGroup>
     <PackageReference Include="MaterialDesignThemes" Version="4.2.1" />
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
-    <PackageReference Include="Microsoft.Windows.Compatibility" Version="5.0.2" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="6.0.0" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Properties\Settings.Designer.cs">

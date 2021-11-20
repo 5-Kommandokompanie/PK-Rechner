@@ -1,1 +1,1 @@
-A:\modding\PK-Rechner\PK-Setup\AppPackages\PK-Setup_2.2.0.0_Test\PK-Setup_2.2.0.0_x64.msixbundle
+A:\modding\PK-Rechner\PK-Setup\AppPackages\PK-Setup_2.3.0.0_Test\PK-Setup_2.3.0.0_x64.msixbundle

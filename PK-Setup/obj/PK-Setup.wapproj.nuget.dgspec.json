@@ -24,7 +24,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0-windows7.0"
+          "net6.0-windows10.0.22000"
         ],
         "sources": {
           "C:\\Program Files (x86)\\ComponentOne\\Packages": {},
@@ -32,8 +32,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0-windows7.0": {
-            "targetAlias": "net5.0-windows",
+          "net6.0-windows10.0.22000": {
+            "targetAlias": "net6.0-windows10.0.22000.0",
             "projectReferences": {}
           }
         },
@@ -44,8 +44,8 @@
         }
       },
       "frameworks": {
-        "net5.0-windows7.0": {
-          "targetAlias": "net5.0-windows",
+        "net6.0-windows10.0.22000": {
+          "targetAlias": "net6.0-windows10.0.22000.0",
           "dependencies": {
             "MaterialDesignThemes": {
               "target": "Package",
@@ -57,7 +57,7 @@
             },
             "Microsoft.Windows.Compatibility": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -70,15 +70,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.22000.21, 10.0.22000.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref": {
               "privateAssets": "all"
             },
             "Microsoft.WindowsDesktop.App.WPF": {
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -118,6 +127,11 @@
               }
             }
           }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1702"
+          ]
         }
       },
       "frameworks": {
@@ -127,7 +141,7 @@
             "Microsoft.Windows.SDK.BuildTools": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.19041.8, )"
+              "version": "[10.0.22000.196, )"
             }
           },
           "imports": [
@@ -139,12 +153,12 @@
             "net471",
             "net472",
             "net48",
-            "net6.0-windows10.0.20348",
+            "net6.0-windows10.0.22000",
             "net461"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

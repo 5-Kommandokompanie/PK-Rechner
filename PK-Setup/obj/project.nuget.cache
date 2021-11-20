@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "y1vkTmH9ZwOkfQcI51HkHaPCoriZdQnYI8S6VGIlhXo0wLBwP8YXKdzmOqChwHPc6BnLBXR2BXbDYIo3wRlTNQ==",
+  "dgSpecHash": "xlw8QnrJinJ4VI7Oxh6BgGEbbnzvmp624pYZsAS1w5cddU9WpAObLxWPUdPELlEcZ3dsRP9f13uBH66TIdi0UQ==",
   "success": true,
   "projectFilePath": "A:\\modding\\PK-Rechner\\PK-Setup\\PK-Setup.wapproj",
   "expectedPackageFiles": [
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.19041.8\\microsoft.windows.sdk.buildtools.10.0.19041.8.nupkg.sha512"
+    "C:\\Users\\Janwo\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22000.196\\microsoft.windows.sdk.buildtools.10.0.22000.196.nupkg.sha512"
   ],
   "logs": []
 }
