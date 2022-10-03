@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>FRW-01</Machine>
+    <WindowsUser>Janwo</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>d228ee8b-c331-4731-b379-20868cbc362b</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Jan Wöde</PackageIdentityPublisher>
+    <IntermediateOutputPath>A:\modding\PK-Rechner\PK-Setup\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>A:\modding\PK-Rechner\PK-Setup\bin\x64\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="A:\modding\PK-Rechner\PK-Setup\bin\x64\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\BadgeLogo.scale-100.png">
+      <PackagePath>Images\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\BadgeLogo.scale-125.png">
+      <PackagePath>Images\BadgeLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\BadgeLogo.scale-150.png">
+      <PackagePath>Images\BadgeLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\BadgeLogo.scale-200.png">
+      <PackagePath>Images\BadgeLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\BadgeLogo.scale-400.png">
+      <PackagePath>Images\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\LargeTile.scale-100.png">
+      <PackagePath>Images\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\LargeTile.scale-125.png">
+      <PackagePath>Images\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\LargeTile.scale-150.png">
+      <PackagePath>Images\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\LargeTile.scale-200.png">
+      <PackagePath>Images\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\LargeTile.scale-400.png">
+      <PackagePath>Images\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SmallTile.scale-100.png">
+      <PackagePath>Images\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SmallTile.scale-125.png">
+      <PackagePath>Images\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SmallTile.scale-150.png">
+      <PackagePath>Images\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SmallTile.scale-200.png">
+      <PackagePath>Images\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SmallTile.scale-400.png">
+      <PackagePath>Images\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SplashScreen.scale-100.png">
+      <PackagePath>Images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SplashScreen.scale-125.png">
+      <PackagePath>Images\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SplashScreen.scale-150.png">
+      <PackagePath>Images\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\SplashScreen.scale-400.png">
+      <PackagePath>Images\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square150x150Logo.scale-100.png">
+      <PackagePath>Images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square150x150Logo.scale-125.png">
+      <PackagePath>Images\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square150x150Logo.scale-150.png">
+      <PackagePath>Images\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square150x150Logo.scale-400.png">
+      <PackagePath>Images\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.scale-100.png">
+      <PackagePath>Images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.scale-125.png">
+      <PackagePath>Images\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.scale-150.png">
+      <PackagePath>Images\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.scale-400.png">
+      <PackagePath>Images\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\StoreLogo.scale-100.png">
+      <PackagePath>Images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\StoreLogo.scale-125.png">
+      <PackagePath>Images\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\StoreLogo.scale-150.png">
+      <PackagePath>Images\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\StoreLogo.scale-200.png">
+      <PackagePath>Images\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\StoreLogo.scale-400.png">
+      <PackagePath>Images\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Wide310x150Logo.scale-100.png">
+      <PackagePath>Images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Wide310x150Logo.scale-125.png">
+      <PackagePath>Images\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Wide310x150Logo.scale-150.png">
+      <PackagePath>Images\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\Images\Wide310x150Logo.scale-400.png">
+      <PackagePath>Images\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Setup\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\materialdesigncolors\2.0.3\lib\netcoreapp3.1\MaterialDesignColors.dll">
+      <PackagePath>PK-Rechner_WPF\MaterialDesignColors.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\materialdesignthemes\4.2.1\lib\netcoreapp3.1\MaterialDesignThemes.Wpf.dll">
+      <PackagePath>PK-Rechner_WPF\MaterialDesignThemes.Wpf.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\microsoft.bcl.asyncinterfaces\5.0.0\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll">
+      <PackagePath>PK-Rechner_WPF\Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\microsoft.extensions.objectpool\5.0.10\lib\net5.0\Microsoft.Extensions.ObjectPool.dll">
+      <PackagePath>PK-Rechner_WPF\Microsoft.Extensions.ObjectPool.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.componentmodel.composition\6.0.0\lib\net6.0\System.ComponentModel.Composition.dll">
+      <PackagePath>PK-Rechner_WPF\System.ComponentModel.Composition.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.componentmodel.composition.registration\6.0.0\lib\net6.0\System.ComponentModel.Composition.Registration.dll">
+      <PackagePath>PK-Rechner_WPF\System.ComponentModel.Composition.Registration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.odbc\6.0.0\lib\net6.0\System.Data.Odbc.dll">
+      <PackagePath>PK-Rechner_WPF\System.Data.Odbc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.oledb\6.0.0\lib\net6.0\System.Data.OleDb.dll">
+      <PackagePath>PK-Rechner_WPF\System.Data.OleDb.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.sqlclient\4.8.3\lib\netcoreapp2.1\System.Data.SqlClient.dll">
+      <PackagePath>PK-Rechner_WPF\System.Data.SqlClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.directoryservices.accountmanagement\6.0.0\lib\net6.0\System.DirectoryServices.AccountManagement.dll">
+      <PackagePath>PK-Rechner_WPF\System.DirectoryServices.AccountManagement.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.directoryservices.protocols\6.0.0\lib\net6.0\System.DirectoryServices.Protocols.dll">
+      <PackagePath>PK-Rechner_WPF\System.DirectoryServices.Protocols.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.io.ports\6.0.0\lib\net6.0\System.IO.Ports.dll">
+      <PackagePath>PK-Rechner_WPF\System.IO.Ports.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.management\6.0.0\lib\net6.0\System.Management.dll">
+      <PackagePath>PK-Rechner_WPF\System.Management.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.private.servicemodel\4.9.0\lib\netstandard2.0\System.Private.ServiceModel.dll">
+      <PackagePath>PK-Rechner_WPF\System.Private.ServiceModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.reflection.context\6.0.0\lib\net6.0\System.Reflection.Context.dll">
+      <PackagePath>PK-Rechner_WPF\System.Reflection.Context.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.runtime.caching\6.0.0\lib\net6.0\System.Runtime.Caching.dll">
+      <PackagePath>PK-Rechner_WPF\System.Runtime.Caching.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.servicemodel.duplex\4.9.0\lib\net6.0\System.ServiceModel.Duplex.dll">
+      <PackagePath>PK-Rechner_WPF\System.ServiceModel.Duplex.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.servicemodel.http\4.9.0\lib\net6.0\System.ServiceModel.Http.dll">
+      <PackagePath>PK-Rechner_WPF\System.ServiceModel.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.servicemodel.nettcp\4.9.0\lib\net6.0\System.ServiceModel.NetTcp.dll">
+      <PackagePath>PK-Rechner_WPF\System.ServiceModel.NetTcp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.servicemodel.primitives\4.9.0\lib\net6.0\System.ServiceModel.Primitives.dll">
+      <PackagePath>PK-Rechner_WPF\System.ServiceModel.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.servicemodel.primitives\4.9.0\lib\net6.0\System.ServiceModel.dll">
+      <PackagePath>PK-Rechner_WPF\System.ServiceModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.servicemodel.security\4.9.0\lib\net6.0\System.ServiceModel.Security.dll">
+      <PackagePath>PK-Rechner_WPF\System.ServiceModel.Security.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.servicemodel.syndication\6.0.0\lib\net6.0\System.ServiceModel.Syndication.dll">
+      <PackagePath>PK-Rechner_WPF\System.ServiceModel.Syndication.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.serviceprocess.servicecontroller\6.0.0\lib\net6.0\System.ServiceProcess.ServiceController.dll">
+      <PackagePath>PK-Rechner_WPF\System.ServiceProcess.ServiceController.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.speech\6.0.0\lib\net6.0\System.Speech.dll">
+      <PackagePath>PK-Rechner_WPF\System.Speech.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.web.services.description\4.9.0\lib\netstandard2.0\System.Web.Services.Description.dll">
+      <PackagePath>PK-Rechner_WPF\System.Web.Services.Description.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.private.servicemodel\4.9.0\lib\netstandard2.0\cs\System.Private.ServiceModel.resources.dll">
+      <PackagePath>PK-Rechner_WPF\cs\System.Private.ServiceModel.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.private.servicemodel\4.9.0\lib\netstandard2.0\de\System.Private.ServiceModel.resources.dll">
+      <PackagePath>PK-Rechner_WPF\de\System.Private.ServiceModel.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.private.servicemodel\4.9.0\lib\netstandard2.0\es\System.Private.ServiceModel.resources.dll">
+      <PackagePath>PK-Rechner_WPF\es\System.Private.ServiceModel.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.private.servicemodel\4.9.0\lib\netstandard2.0\fr\System.Private.ServiceModel.resources.dll">
+      <PackagePath>PK-Rechner_WPF\fr\System.Private.ServiceModel.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.private.servicemodel\4.9.0\lib\netstandard2.0\it\System.Private.ServiceModel.resources.dll">
+      <PackagePath>PK-Rechner_WPF\it\System.Private.ServiceModel.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.private.servicemodel\4.9.0\lib\netstandard2.0\ja\System.Private.ServiceModel.resources.dll">
+      <PackagePath>PK-Rechner_WPF\ja\System.Private.ServiceModel.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.private.servicemodel\4.9.0\lib\netstandard2.0\ko\System.Private.ServiceModel.resources.dll">
+      <PackagePath>PK-Rechner_WPF\ko\System.Private.ServiceModel.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.private.servicemodel\4.9.0\lib\netstandard2.0\pl\System.Private.ServiceModel.resources.dll">
+      <PackagePath>PK-Rechner_WPF\pl\System.Private.ServiceModel.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.private.servicemodel\4.9.0\lib\netstandard2.0\pt-BR\System.Private.ServiceModel.resources.dll">
+      <PackagePath>PK-Rechner_WPF\pt-BR\System.Private.ServiceModel.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.private.servicemodel\4.9.0\lib\netstandard2.0\ru\System.Private.ServiceModel.resources.dll">
+      <PackagePath>PK-Rechner_WPF\ru\System.Private.ServiceModel.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.private.servicemodel\4.9.0\lib\netstandard2.0\tr\System.Private.ServiceModel.resources.dll">
+      <PackagePath>PK-Rechner_WPF\tr\System.Private.ServiceModel.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.private.servicemodel\4.9.0\lib\netstandard2.0\zh-Hans\System.Private.ServiceModel.resources.dll">
+      <PackagePath>PK-Rechner_WPF\zh-Hans\System.Private.ServiceModel.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.private.servicemodel\4.9.0\lib\netstandard2.0\zh-Hant\System.Private.ServiceModel.resources.dll">
+      <PackagePath>PK-Rechner_WPF\zh-Hant\System.Private.ServiceModel.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.web.services.description\4.9.0\lib\netstandard2.0\cs\System.Web.Services.Description.resources.dll">
+      <PackagePath>PK-Rechner_WPF\cs\System.Web.Services.Description.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.web.services.description\4.9.0\lib\netstandard2.0\de\System.Web.Services.Description.resources.dll">
+      <PackagePath>PK-Rechner_WPF\de\System.Web.Services.Description.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.web.services.description\4.9.0\lib\netstandard2.0\es\System.Web.Services.Description.resources.dll">
+      <PackagePath>PK-Rechner_WPF\es\System.Web.Services.Description.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.web.services.description\4.9.0\lib\netstandard2.0\fr\System.Web.Services.Description.resources.dll">
+      <PackagePath>PK-Rechner_WPF\fr\System.Web.Services.Description.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.web.services.description\4.9.0\lib\netstandard2.0\it\System.Web.Services.Description.resources.dll">
+      <PackagePath>PK-Rechner_WPF\it\System.Web.Services.Description.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.web.services.description\4.9.0\lib\netstandard2.0\ja\System.Web.Services.Description.resources.dll">
+      <PackagePath>PK-Rechner_WPF\ja\System.Web.Services.Description.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.web.services.description\4.9.0\lib\netstandard2.0\ko\System.Web.Services.Description.resources.dll">
+      <PackagePath>PK-Rechner_WPF\ko\System.Web.Services.Description.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.web.services.description\4.9.0\lib\netstandard2.0\pl\System.Web.Services.Description.resources.dll">
+      <PackagePath>PK-Rechner_WPF\pl\System.Web.Services.Description.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.web.services.description\4.9.0\lib\netstandard2.0\pt-BR\System.Web.Services.Description.resources.dll">
+      <PackagePath>PK-Rechner_WPF\pt-BR\System.Web.Services.Description.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.web.services.description\4.9.0\lib\netstandard2.0\ru\System.Web.Services.Description.resources.dll">
+      <PackagePath>PK-Rechner_WPF\ru\System.Web.Services.Description.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.web.services.description\4.9.0\lib\netstandard2.0\tr\System.Web.Services.Description.resources.dll">
+      <PackagePath>PK-Rechner_WPF\tr\System.Web.Services.Description.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.web.services.description\4.9.0\lib\netstandard2.0\zh-Hans\System.Web.Services.Description.resources.dll">
+      <PackagePath>PK-Rechner_WPF\zh-Hans\System.Web.Services.Description.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.web.services.description\4.9.0\lib\netstandard2.0\zh-Hant\System.Web.Services.Description.resources.dll">
+      <PackagePath>PK-Rechner_WPF\zh-Hant\System.Web.Services.Description.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\runtime.linux-arm.runtime.native.system.io.ports\6.0.0\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so">
+      <PackagePath>PK-Rechner_WPF\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\runtime.linux-arm64.runtime.native.system.io.ports\6.0.0\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so">
+      <PackagePath>PK-Rechner_WPF\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\runtime.linux-x64.runtime.native.system.io.ports\6.0.0\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so">
+      <PackagePath>PK-Rechner_WPF\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\runtime.osx-arm64.runtime.native.system.io.ports\6.0.0\runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib">
+      <PackagePath>PK-Rechner_WPF\runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\runtime.osx-x64.runtime.native.system.io.ports\6.0.0\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib">
+      <PackagePath>PK-Rechner_WPF\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\4.4.0\runtimes\win-arm64\native\sni.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win-arm64\native\sni.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\runtime.win-x64.runtime.native.system.data.sqlclient.sni\4.4.0\runtimes\win-x64\native\sni.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win-x64\native\sni.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\runtime.win-x86.runtime.native.system.data.sqlclient.sni\4.4.0\runtimes\win-x86\native\sni.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win-x86\native\sni.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.odbc\6.0.0\runtimes\freebsd\lib\net6.0\System.Data.Odbc.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\freebsd\lib\net6.0\System.Data.Odbc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.odbc\6.0.0\runtimes\illumos\lib\net6.0\System.Data.Odbc.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\illumos\lib\net6.0\System.Data.Odbc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.odbc\6.0.0\runtimes\ios\lib\net6.0\System.Data.Odbc.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\ios\lib\net6.0\System.Data.Odbc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.odbc\6.0.0\runtimes\linux\lib\net6.0\System.Data.Odbc.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\linux\lib\net6.0\System.Data.Odbc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.odbc\6.0.0\runtimes\osx\lib\net6.0\System.Data.Odbc.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\osx\lib\net6.0\System.Data.Odbc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.odbc\6.0.0\runtimes\solaris\lib\net6.0\System.Data.Odbc.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\solaris\lib\net6.0\System.Data.Odbc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.odbc\6.0.0\runtimes\tvos\lib\net6.0\System.Data.Odbc.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\tvos\lib\net6.0\System.Data.Odbc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.odbc\6.0.0\runtimes\win\lib\net6.0\System.Data.Odbc.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\net6.0\System.Data.Odbc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.oledb\6.0.0\runtimes\win\lib\net6.0\System.Data.OleDb.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\net6.0\System.Data.OleDb.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.sqlclient\4.8.3\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.data.sqlclient\4.8.3\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.diagnostics.eventlog\6.0.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.directoryservices.accountmanagement\6.0.0\runtimes\win\lib\net6.0\System.DirectoryServices.AccountManagement.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\net6.0\System.DirectoryServices.AccountManagement.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.directoryservices.protocols\6.0.0\runtimes\linux\lib\net6.0\System.DirectoryServices.Protocols.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\linux\lib\net6.0\System.DirectoryServices.Protocols.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.directoryservices.protocols\6.0.0\runtimes\osx\lib\net6.0\System.DirectoryServices.Protocols.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\osx\lib\net6.0\System.DirectoryServices.Protocols.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.directoryservices.protocols\6.0.0\runtimes\win\lib\net6.0\System.DirectoryServices.Protocols.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\net6.0\System.DirectoryServices.Protocols.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.io.ports\6.0.0\runtimes\unix\lib\net6.0\System.IO.Ports.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\unix\lib\net6.0\System.IO.Ports.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.io.ports\6.0.0\runtimes\win\lib\net6.0\System.IO.Ports.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\net6.0\System.IO.Ports.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.management\6.0.0\runtimes\win\lib\net6.0\System.Management.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\net6.0\System.Management.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.runtime.caching\6.0.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\net6.0\System.Runtime.Caching.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.serviceprocess.servicecontroller\6.0.0\runtimes\win\lib\net6.0\System.ServiceProcess.ServiceController.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\net6.0\System.ServiceProcess.ServiceController.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\system.speech\6.0.0\runtimes\win\lib\net6.0\System.Speech.dll">
+      <PackagePath>PK-Rechner_WPF\runtimes\win\lib\net6.0\System.Speech.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.22000.27\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
+      <PackagePath>PK-Rechner_WPF\Microsoft.Windows.SDK.NET.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janwo\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.22000.27\lib\net6.0\WinRT.Runtime.dll">
+      <PackagePath>PK-Rechner_WPF\WinRT.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Debug\net6.0-windows10.0.22000.0\PK-Rechner.deps.json">
+      <PackagePath>PK-Rechner_WPF\PK-Rechner.deps.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Rechner_WPF\obj\x64\Debug\net6.0-windows10.0.22000.0\apphost.exe">
+      <PackagePath>PK-Rechner_WPF\PK-Rechner.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Debug\net6.0-windows10.0.22000.0\PK-Rechner.runtimeconfig.json">
+      <PackagePath>PK-Rechner_WPF\PK-Rechner.runtimeconfig.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Debug\net6.0-windows10.0.22000.0\PK-Rechner.dll">
+      <PackagePath>PK-Rechner_WPF\PK-Rechner.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\modding\PK-Rechner\PK-Rechner_WPF\bin\x64\Debug\net6.0-windows10.0.22000.0\PK-Rechner.dll.config">
+      <PackagePath>PK-Rechner_WPF\PK-Rechner.dll.config</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

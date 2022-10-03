@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PK_Rechner_MAUI.MainPage"
+             xmlns:viewmodel="clr-namespace:PK_Rechner_MAUI.ViewModels"
+             x:DataType="viewmodel:MainViewModel"
+             BackgroundColor="#f5f7f5">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="10"
+            Padding="25,0"
+            VerticalOptions="Center">
+
+            <Grid Padding="0,5">
+                <Frame>
+                    <VerticalStackLayout>
+                        <Label Text="Geburtsdatum:"/>
+                        <DatePicker Date="{Binding Date}" MaximumDate="{Binding MaxDate}" MinimumWidthRequest="100" MaximumWidthRequest="200"/>
+                    </VerticalStackLayout>
+                </Frame>
+            </Grid>
+
+            <Grid Padding="0,5">
+                <Frame>
+                    <VerticalStackLayout>
+                        <Label Text="Erster Buchstabe des Nachnamen:"/>
+                        <Picker ItemsSource="{Binding Buchstaben}" ItemDisplayBinding="{Binding Buchstabe}" SelectedItem="{Binding Buchstabe}" MinimumWidthRequest="200" MaximumWidthRequest="300"/>
+                    </VerticalStackLayout>
+                </Frame>
+            </Grid>
+
+            <Grid Padding="0,5">
+                <Frame>
+                    <VerticalStackLayout>
+                        <Label Text="Kreiswehrersatzamt (heute Karrierecenter):"/>
+                        <Picker ItemsSource="{Binding Kweas}" ItemDisplayBinding="{Binding Name}" SelectedItem="{Binding Kwea}" MinimumWidthRequest="200" MaximumWidthRequest="300"/>
+                    </VerticalStackLayout>
+                </Frame>
+            </Grid>
+
+            <Grid Padding="0,5">
+                <Frame>
+                    <VerticalStackLayout>
+                        <Label Text="Laufende Zahl (im Normalfall 1):"/>
+                        <Picker ItemsSource="{Binding Lfds}" SelectedItem="{Binding Lfd}" MinimumWidthRequest="50" MaximumWidthRequest="100"/>
+                    </VerticalStackLayout>
+                </Frame>
+            </Grid>
+            
+            <Grid Padding="0,5">
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="30">
+                    <Button Text="Berechnen" Command="{Binding BerechnenCommand}"/>
+                    <Button Text="Zurücksetzen" Command="{Binding ResetCommand}"/>
+                </HorizontalStackLayout>
+            </Grid>
+
+            <Grid Padding="0,5">
+                <Frame>
+                    <Label Text="{Binding Pk}" FontAttributes="Bold"/>
+                </Frame>
+            </Grid>
+
+            <Grid Padding="0,5" RowDefinitions=".50*,.50*" RowSpacing="20">
+                <Label Text="Gib alle Daten im korrekten Format ein" FontAttributes="Italic"/>
+                <Label x:Name="Author" Text="Autor!" FontAttributes="Italic" FontSize="8" Grid.Row="1"/>
+            </Grid>
+
+            <!--
+            <Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Hello, World!"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Welcome to .NET Multi-platform App UI"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Click me"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+            -->
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

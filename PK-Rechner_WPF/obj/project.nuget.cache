@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZU9xeDPxOc5YMBgW6u2vBSPx1wKcl1b8HDcHsc+8M9vKSqvxGDy/AIeBnDh25rME1xci8xQUDMXAIFjYFOJ72w==",
+  "dgSpecHash": "dBscjzLUjLKr+2olniczLmXhnHEfjDehYzJ/khvxTru9wToNEt1UfkjtYwfQEEYBTZKFMeNUZ4TyabokZ7+6Yg==",
   "success": true,
   "projectFilePath": "A:\\modding\\PK-Rechner\\PK-Rechner_WPF\\PK-Rechner_WPF.csproj",
   "expectedPackageFiles": [
@@ -64,7 +64,7 @@
     "C:\\Users\\Janwo\\.nuget\\packages\\system.threading.accesscontrol\\6.0.0\\system.threading.accesscontrol.6.0.0.nupkg.sha512",
     "C:\\Users\\Janwo\\.nuget\\packages\\system.web.services.description\\4.9.0\\system.web.services.description.4.9.0.nupkg.sha512",
     "C:\\Users\\Janwo\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\Janwo\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22000.21\\microsoft.windows.sdk.net.ref.10.0.22000.21.nupkg.sha512"
+    "C:\\Users\\Janwo\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22000.27\\microsoft.windows.sdk.net.ref.10.0.22000.27.nupkg.sha512"
   ],
   "logs": []
 }
