@@ -5,9 +5,12 @@
 /PK-Rechner/.vs/*
 /PK-Rechner/bin/*
 /PK-Rechner/obj/*
+/PK-Rechner_WPF/.vs/*
 /PK-Rechner_WPF/bin/*
 /PK-Rechner_WPF/obj/*
+/PK-Rechner_MAUI/.vs/*
 /PK-Rechner_MAUI/bin/*
 /PK-Rechner_MAUI/obj/*
+/PK-Setup/.vs/*
 /PK-Setup/bin/*
 /PK-Setup/obj/*
