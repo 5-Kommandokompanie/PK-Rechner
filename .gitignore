@@ -2,4 +2,10 @@
 # Diese .gitignore-Datei wurde von Microsoft(R) Visual Studio automatisch erstellt.
 ################################################################################
 
-/PK-Rechner/.vs/PK-Rechner/v16/Server/sqlite3/db.lock
+/PK-Rechner/.vs/*
+/PK-Rechner/bin/*
+/PK-Rechner/obj/*
+/PK-Rechner_WPF/bin/*
+/PK-Rechner_WPF/obj/*
+/PK-Rechner_MAUI/bin/*
+/PK-Rechner_MAUI/obj/*
