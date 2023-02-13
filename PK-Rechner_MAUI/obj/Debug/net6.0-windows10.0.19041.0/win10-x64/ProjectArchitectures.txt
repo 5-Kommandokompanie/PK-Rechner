@@ -1,1 +1,0 @@
-A:\modding\PK-Rechner\PK-Rechner_MAUI\PK-Rechner_MAUI.csproj;x64
