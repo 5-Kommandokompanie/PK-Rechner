@@ -3148,7 +3148,6 @@
   },
   "packageFolders": {
     "C:\\Users\\Janwo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\ComponentOne\\WPF Edition\\bin\\v5\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -3161,7 +3160,6 @@
       "outputPath": "A:\\modding\\PK-Rechner\\PK-Rechner_WPF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\ComponentOne\\WPF Edition\\bin\\v5\\",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
@@ -3177,7 +3175,8 @@
         "C:\\Program Files (x86)\\ComponentOne\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.devexpress.com/QQgvwzPp2Qwe1ZUJciKeghmoipksSls1pt8xouNPfTEbymu91Y/api": {}
       },
       "frameworks": {
         "net6.0-windows10.0.22000": {
@@ -3236,7 +3235,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
