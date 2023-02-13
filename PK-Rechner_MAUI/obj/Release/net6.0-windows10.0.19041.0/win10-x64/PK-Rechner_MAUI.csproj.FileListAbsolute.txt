@@ -253,6 +253,7 @@ A:\modding\PK-Rechner\PK-Rechner_MAUI\bin\Release\net6.0-windows10.0.19041.0\win
 A:\modding\PK-Rechner\PK-Rechner_MAUI\bin\Release\net6.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 A:\modding\PK-Rechner\PK-Rechner_MAUI\bin\Release\net6.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 A:\modding\PK-Rechner\PK-Rechner_MAUI\bin\Release\net6.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
+A:\modding\PK-Rechner\PK-Rechner_MAUI\bin\Release\net6.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_6.0.922.41905.dll
 A:\modding\PK-Rechner\PK-Rechner_MAUI\bin\Release\net6.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 A:\modding\PK-Rechner\PK-Rechner_MAUI\bin\Release\net6.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 A:\modding\PK-Rechner\PK-Rechner_MAUI\bin\Release\net6.0-windows10.0.19041.0\win10-x64\msquic.dll
@@ -343,19 +344,3 @@ A:\modding\PK-Rechner\PK-Rechner_MAUI\obj\Release\net6.0-windows10.0.19041.0\win
 A:\modding\PK-Rechner\PK-Rechner_MAUI\obj\Release\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 A:\modding\PK-Rechner\PK-Rechner_MAUI\obj\Release\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 A:\modding\PK-Rechner\PK-Rechner_MAUI\obj\Release\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
-A:\modding\PK-Rechner\PK-Rechner_MAUI\bin\Release\net6.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_6.0.1122.52304.dll
-A:\modding\PK-Rechner\PK-Rechner_MAUI\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png
-A:\modding\PK-Rechner\PK-Rechner_MAUI\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png
-A:\modding\PK-Rechner\PK-Rechner_MAUI\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png
-A:\modding\PK-Rechner\PK-Rechner_MAUI\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png
-A:\modding\PK-Rechner\PK-Rechner_MAUI\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png
-A:\modding\PK-Rechner\PK-Rechner_MAUI\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png
-A:\modding\PK-Rechner\PK-Rechner_MAUI\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png
-A:\modding\PK-Rechner\PK-Rechner_MAUI\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png
-A:\modding\PK-Rechner\PK-Rechner_MAUI\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png
-A:\modding\PK-Rechner\PK-Rechner_MAUI\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png
-A:\modding\PK-Rechner\PK-Rechner_MAUI\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png
-A:\modding\PK-Rechner\PK-Rechner_MAUI\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png
-A:\modding\PK-Rechner\PK-Rechner_MAUI\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png
-A:\modding\PK-Rechner\PK-Rechner_MAUI\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png
-A:\modding\PK-Rechner\PK-Rechner_MAUI\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png

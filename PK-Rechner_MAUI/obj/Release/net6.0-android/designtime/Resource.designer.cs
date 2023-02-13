@@ -14,7 +14,7 @@ namespace PK_Rechner_MAUI
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.3.99.76")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.3.99.48")]
 	public partial class Resource
 	{
 		
